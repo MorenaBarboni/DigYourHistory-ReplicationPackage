@@ -1,0 +1,360 @@
+{
+  "responseKey": "dedudes415me2cd7cad",
+  "meta": {
+    "projectName": "dedudes",
+    "presetId": 4,
+    "sampleId": "1",
+    "repetitionId": 5,
+    "mutantHash": "me2cd7cad"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0xca98d25e2c93784b286e590ed9febb84ffd6e2da7b007b85ea6748061f8e76ac",
+      "0x037a73ab9a72306dc8ebecdf80a2ab16d414d96cf2f63c7fb32feb92bf9a5b6d",
+      "0x74d1366fbe52d8484162e1ed6b49c0c8fa14afa42eba223d4651e6ea03ec4cce",
+      "0x3c5c7c3cdfde1e6a610fadeb29af0d5bf14b21cc8fd41743407ef8de4c918396",
+      "0x16afeb00f2747e63a63bab610e5c845716931bc23d09339892635a27fc5ba82c",
+      "0xe2d9f6ed2ad0b01e6a7da20c6ad257cdcb875d010863e437299eae66a07a4a83",
+      "0xc5c2cb86131f9e87776a8803ffd32d0cd607c48d0d8417a53e9e914dcb7b7f8d",
+      "0x04e650beefefc57c681b80135dcc75deaa5559de35ae3b4c78d8355b76749b21",
+      "0x234516a5fb1345f9d7e1dfefa9376d8f3ed00e4b06d5ffa782126225422c39f6",
+      "0xea2bd6b9a540fc7cb658c0eba77aa94b50680b24ede84c9aa4220903d173a40e"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "id": "resp_06fd5d51ed626dd800699b12e69c60819586c8441eab085f9e",
+      "object": "response",
+      "created_at": 1771770598,
+      "status": "completed",
+      "background": false,
+      "billing": {
+        "payer": "developer"
+      },
+      "completed_at": 1771770606,
+      "error": null,
+      "frequency_penalty": 0,
+      "incomplete_details": null,
+      "instructions": null,
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "model": "gpt-4o-mini-2024-07-18",
+      "output": [
+        {
+          "id": "msg_06fd5d51ed626dd800699b12ec6e4081959cc241c0e3766249",
+          "type": "message",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "annotations": [],
+              "logprobs": [],
+              "text": "{\"selected\":[{\"txId\":2},{\"txId\":4},{\"txId\":9},{\"txId\":12},{\"txId\":14},{\"txId\":16},{\"txId\":26},{\"txId\":38},{\"txId\":54},{\"txId\":91}]}"
+            }
+          ],
+          "role": "assistant"
+        }
+      ],
+      "parallel_tool_calls": true,
+      "presence_penalty": 0,
+      "previous_response_id": null,
+      "prompt_cache_key": null,
+      "prompt_cache_retention": null,
+      "reasoning": {
+        "effort": null,
+        "summary": null
+      },
+      "safety_identifier": null,
+      "service_tier": "default",
+      "store": true,
+      "temperature": 0.4,
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "description": null,
+          "name": "Transactions",
+          "schema": {
+            "name": "Transactions",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "selected": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "txId": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "txId"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "selected"
+            ]
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "tool_choice": "auto",
+      "tools": [],
+      "top_logprobs": 0,
+      "top_p": 1,
+      "truncation": "disabled",
+      "usage": {
+        "input_tokens": 23885,
+        "input_tokens_details": {
+          "cached_tokens": 23680
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 23941
+      },
+      "user": null,
+      "metadata": {},
+      "output_text": "{\"selected\":[{\"txId\":2},{\"txId\":4},{\"txId\":9},{\"txId\":12},{\"txId\":14},{\"txId\":16},{\"txId\":26},{\"txId\":38},{\"txId\":54},{\"txId\":91}]}"
+    },
+    "rawText": "{\"selected\":[{\"txId\":2},{\"txId\":4},{\"txId\":9},{\"txId\":12},{\"txId\":14},{\"txId\":16},{\"txId\":26},{\"txId\":38},{\"txId\":54},{\"txId\":91}]}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 2
+        },
+        {
+          "txId": 4
+        },
+        {
+          "txId": 9
+        },
+        {
+          "txId": 12
+        },
+        {
+          "txId": 14
+        },
+        {
+          "txId": 16
+        },
+        {
+          "txId": 26
+        },
+        {
+          "txId": 38
+        },
+        {
+          "txId": 54
+        },
+        {
+          "txId": 91
+        }
+      ]
+    },
+    "selectedTxIds": [
+      2,
+      4,
+      9,
+      12,
+      14,
+      16,
+      26,
+      38,
+      54,
+      91
+    ],
+    "selectedHashes": [
+      "0x6fd293993fac34a860483e5b9910aae26b466b9c2c6332c52ae5eed6781f08f1",
+      "0xee1fe02dbad34000981c937592d4873aa7870a1bacb63a8ef0f20e0873a9c2d7",
+      "0x852d82c131cb42abe75e48771d295bd99b515215170cd287aa601d85f257d5de",
+      "0x612930bb80ad2d9ef97fe5057df586170d8fcd1e1b05169edb9afad58e5b801a",
+      "0xde52ec8aa4b78b622e7ca82e38df4db8c3baa55edaf825d12d0fc0b53900521d",
+      "0xbe4fb6057c8c5f006f1f992efc176f60e7db5fc16faa3276dc0d2e8c53c17f34",
+      "0x4b0222fbaafed533465fde16e92bb2d156becc43115ff346c51481937cb2ba3e",
+      "0x3151cf1f6245ad1f95925a7c6ca997a55c4df051b87283ae86e2233718593879",
+      "0xc525037a87e7014d839b6e7a0e1bb6e4ca5e2c993dd51d34afd16a24cbe8dd1a",
+      "0xe3545e6599a6ecf65bf8f351a7d25a78ffbbd83ac3ff97766b76ed78dcf18a3a"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 10,
+      "instances": [
+        {
+          "txId": 2,
+          "item": "0x6fd293993fac34a860483e5b9910aae26b466b9c2c6332c52ae5eed6781f08f1"
+        },
+        {
+          "txId": 4,
+          "item": "0xee1fe02dbad34000981c937592d4873aa7870a1bacb63a8ef0f20e0873a9c2d7"
+        },
+        {
+          "txId": 9,
+          "item": "0x852d82c131cb42abe75e48771d295bd99b515215170cd287aa601d85f257d5de"
+        },
+        {
+          "txId": 12,
+          "item": "0x612930bb80ad2d9ef97fe5057df586170d8fcd1e1b05169edb9afad58e5b801a"
+        },
+        {
+          "txId": 14,
+          "item": "0xde52ec8aa4b78b622e7ca82e38df4db8c3baa55edaf825d12d0fc0b53900521d"
+        },
+        {
+          "txId": 16,
+          "item": "0xbe4fb6057c8c5f006f1f992efc176f60e7db5fc16faa3276dc0d2e8c53c17f34"
+        },
+        {
+          "txId": 26,
+          "item": "0x4b0222fbaafed533465fde16e92bb2d156becc43115ff346c51481937cb2ba3e"
+        },
+        {
+          "txId": 38,
+          "item": "0x3151cf1f6245ad1f95925a7c6ca997a55c4df051b87283ae86e2233718593879"
+        },
+        {
+          "txId": 54,
+          "item": "0xc525037a87e7014d839b6e7a0e1bb6e4ca5e2c993dd51d34afd16a24cbe8dd1a"
+        },
+        {
+          "txId": 91,
+          "item": "0xe3545e6599a6ecf65bf8f351a7d25a78ffbbd83ac3ff97766b76ed78dcf18a3a"
+        }
+      ]
+    },
+    "killers": {
+      "count": 0,
+      "instances": []
+    },
+    "grounded": {
+      "count": 10,
+      "instances": [
+        {
+          "txId": 2,
+          "item": "0x6fd293993fac34a860483e5b9910aae26b466b9c2c6332c52ae5eed6781f08f1"
+        },
+        {
+          "txId": 4,
+          "item": "0xee1fe02dbad34000981c937592d4873aa7870a1bacb63a8ef0f20e0873a9c2d7"
+        },
+        {
+          "txId": 9,
+          "item": "0x852d82c131cb42abe75e48771d295bd99b515215170cd287aa601d85f257d5de"
+        },
+        {
+          "txId": 12,
+          "item": "0x612930bb80ad2d9ef97fe5057df586170d8fcd1e1b05169edb9afad58e5b801a"
+        },
+        {
+          "txId": 14,
+          "item": "0xde52ec8aa4b78b622e7ca82e38df4db8c3baa55edaf825d12d0fc0b53900521d"
+        },
+        {
+          "txId": 16,
+          "item": "0xbe4fb6057c8c5f006f1f992efc176f60e7db5fc16faa3276dc0d2e8c53c17f34"
+        },
+        {
+          "txId": 26,
+          "item": "0x4b0222fbaafed533465fde16e92bb2d156becc43115ff346c51481937cb2ba3e"
+        },
+        {
+          "txId": 38,
+          "item": "0x3151cf1f6245ad1f95925a7c6ca997a55c4df051b87283ae86e2233718593879"
+        },
+        {
+          "txId": 54,
+          "item": "0xc525037a87e7014d839b6e7a0e1bb6e4ca5e2c993dd51d34afd16a24cbe8dd1a"
+        },
+        {
+          "txId": 91,
+          "item": "0xe3545e6599a6ecf65bf8f351a7d25a78ffbbd83ac3ff97766b76ed78dcf18a3a"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 10,
+      "instances": [
+        {
+          "txId": 2,
+          "item": "0x6fd293993fac34a860483e5b9910aae26b466b9c2c6332c52ae5eed6781f08f1"
+        },
+        {
+          "txId": 4,
+          "item": "0xee1fe02dbad34000981c937592d4873aa7870a1bacb63a8ef0f20e0873a9c2d7"
+        },
+        {
+          "txId": 9,
+          "item": "0x852d82c131cb42abe75e48771d295bd99b515215170cd287aa601d85f257d5de"
+        },
+        {
+          "txId": 12,
+          "item": "0x612930bb80ad2d9ef97fe5057df586170d8fcd1e1b05169edb9afad58e5b801a"
+        },
+        {
+          "txId": 14,
+          "item": "0xde52ec8aa4b78b622e7ca82e38df4db8c3baa55edaf825d12d0fc0b53900521d"
+        },
+        {
+          "txId": 16,
+          "item": "0xbe4fb6057c8c5f006f1f992efc176f60e7db5fc16faa3276dc0d2e8c53c17f34"
+        },
+        {
+          "txId": 26,
+          "item": "0x4b0222fbaafed533465fde16e92bb2d156becc43115ff346c51481937cb2ba3e"
+        },
+        {
+          "txId": 38,
+          "item": "0x3151cf1f6245ad1f95925a7c6ca997a55c4df051b87283ae86e2233718593879"
+        },
+        {
+          "txId": 54,
+          "item": "0xc525037a87e7014d839b6e7a0e1bb6e4ca5e2c993dd51d34afd16a24cbe8dd1a"
+        },
+        {
+          "txId": 91,
+          "item": "0xe3545e6599a6ecf65bf8f351a7d25a78ffbbd83ac3ff97766b76ed78dcf18a3a"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "ok",
+        "expected": 10,
+        "actual": 10
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "valid",
+    "tags": [],
+    "metrics": {
+      "j": 10,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0,
+      "OR": 0,
+      "RR": 0,
+      "KR": 0
+    }
+  }
+}

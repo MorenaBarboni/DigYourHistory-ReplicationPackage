@@ -1,0 +1,164 @@
+{
+  "responseKey": "dedudes511m61ff8ed9",
+  "meta": {
+    "projectName": "dedudes",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 1,
+    "mutantHash": "m61ff8ed9"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0xa5354f7310ed91f59b1c345e39c21b3b0a760f554e1c86015d34b20bf1573fff",
+      "0xe73354790507ea53673c67d57b9a4e38a7c891a6f1eba2fd7509eafe56356b74",
+      "0x047056a4db8bc397a2311e162c6c84c92e428d210fad778e565a69407c2480ff",
+      "0xf753cdb4750238eebb2710939be41aec7da5c28d5812cc16ccbcf95421e17a65",
+      "0xac8b80036991313f0d9991aa483a95a9c01079cd33e372b5d4f6225deb94ebe3",
+      "0xabd36aa877f84ff262365e67d8bc106b156ff7a8b05109e7be64388152ff0974",
+      "0xa17d97abc100dc9f7fd738ca789c4f6db08b3c581ef01cd5161a5f139b8a79e2",
+      "0xed54d7a9fbadc1c92763a2cd69d632fb026af91e74faa22722bc8981334ce6cf",
+      "0x4075b1c1a48c332b84b4ca094e3b13c917ba819a5b04ff83479afdd4ca43c354",
+      "0xa2768aee9c99fab0f52e085695c2373eff29dcb97f88834346cad088b73812bd"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "qwen2.5:14b",
+      "created_at": "2026-04-26T11:24:28.77755202Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"selected\": [\n    {\n      \"txId\": 94\n    },\n    {\n      \"txId\": 86\n    },\n    {\n      \"txId\": 70\n    }\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 369565451304,
+      "load_duration": 159224398,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 352887202249,
+      "eval_count": 49,
+      "eval_duration": 15414144753
+    },
+    "rawText": "{\n  \"selected\": [\n    {\n      \"txId\": 94\n    },\n    {\n      \"txId\": 86\n    },\n    {\n      \"txId\": 70\n    }\n  ]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 94
+        },
+        {
+          "txId": 86
+        },
+        {
+          "txId": 70
+        }
+      ]
+    },
+    "selectedTxIds": [
+      94,
+      86,
+      70
+    ],
+    "selectedHashes": [
+      "0xa2768aee9c99fab0f52e085695c2373eff29dcb97f88834346cad088b73812bd",
+      "0x00d5cb95389773abe085be9c8f9cbb15326163cda6e8666e9bccfbcad5a94fd7",
+      "0x748229c2c7358a63e97ab1a7bb8bd9e2a33d76e44db27ec13151574c68b58af4"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 3,
+      "instances": [
+        {
+          "txId": 94,
+          "item": "0xa2768aee9c99fab0f52e085695c2373eff29dcb97f88834346cad088b73812bd"
+        },
+        {
+          "txId": 86,
+          "item": "0x00d5cb95389773abe085be9c8f9cbb15326163cda6e8666e9bccfbcad5a94fd7"
+        },
+        {
+          "txId": 70,
+          "item": "0x748229c2c7358a63e97ab1a7bb8bd9e2a33d76e44db27ec13151574c68b58af4"
+        }
+      ]
+    },
+    "killers": {
+      "count": 1,
+      "instances": [
+        {
+          "txId": 94,
+          "item": "0xa2768aee9c99fab0f52e085695c2373eff29dcb97f88834346cad088b73812bd"
+        }
+      ]
+    },
+    "grounded": {
+      "count": 3,
+      "instances": [
+        {
+          "txId": 94,
+          "item": "0xa2768aee9c99fab0f52e085695c2373eff29dcb97f88834346cad088b73812bd"
+        },
+        {
+          "txId": 86,
+          "item": "0x00d5cb95389773abe085be9c8f9cbb15326163cda6e8666e9bccfbcad5a94fd7"
+        },
+        {
+          "txId": 70,
+          "item": "0x748229c2c7358a63e97ab1a7bb8bd9e2a33d76e44db27ec13151574c68b58af4"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 3,
+      "instances": [
+        {
+          "txId": 94,
+          "item": "0xa2768aee9c99fab0f52e085695c2373eff29dcb97f88834346cad088b73812bd"
+        },
+        {
+          "txId": 86,
+          "item": "0x00d5cb95389773abe085be9c8f9cbb15326163cda6e8666e9bccfbcad5a94fd7"
+        },
+        {
+          "txId": 70,
+          "item": "0x748229c2c7358a63e97ab1a7bb8bd9e2a33d76e44db27ec13151574c68b58af4"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 3
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 3,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.7,
+      "OR": 0,
+      "RR": 0,
+      "KR": 0.3333333333333333
+    }
+  }
+}

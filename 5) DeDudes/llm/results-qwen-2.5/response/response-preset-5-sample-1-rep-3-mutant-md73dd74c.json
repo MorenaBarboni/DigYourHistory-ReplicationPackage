@@ -1,0 +1,151 @@
+{
+  "responseKey": "dedudes513md73dd74c",
+  "meta": {
+    "projectName": "dedudes",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 3,
+    "mutantHash": "md73dd74c"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0x1659922f2719c055f0065cf86fd257d17a21b7da2fd9943c3c7d671384991eb6",
+      "0x10174ccc186d1f01377fb8fcdc2ea86c5d1938f3e3ce90187b5a94a6e168f50d",
+      "0x9a0b15053695120bc6900578f622b3876f4e60021794e4dc43be233adcbe47a4",
+      "0x4af2f147bffd23d7cf8e07c6701fbf298d85f0cf45a774fed7bbd76a787e5222",
+      "0x83e3b0998b66120f052c7011ac7fbc31cb77b9e864091293e141f1df231ff2a7",
+      "0xc02015173666ee97a6d7bd726d27e09df176696cfff548215ea0a2e91e323871",
+      "0x44db1f41b36ed2fcb23bcdcb49f6b2aa63f0a0f30e97b2afded92dfc1e7ba7e9",
+      "0xc81b924786d751073bcad0d11128f8d2aae32075f7d5860c029cce447d40a98c",
+      "0xf76e1e06753c8a4e15491a4e3b5413f180e6aa9fdad03e81d4979d2ce56ecffc",
+      "0x2b7bf8536bf3848c686b35671da7328803c3b75398ab119d87e166a9ba872e8e"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "qwen2.5:14b",
+      "created_at": "2026-04-26T22:46:22.858532127Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"selected\": [\n    {\n      \"txId\": 96\n    },\n    {\n      \"txId\": 97\n    }\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 365736042590,
+      "load_duration": 170176310,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 353453686960,
+      "eval_count": 36,
+      "eval_duration": 11288521231
+    },
+    "rawText": "{\n  \"selected\": [\n    {\n      \"txId\": 96\n    },\n    {\n      \"txId\": 97\n    }\n  ]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 96
+        },
+        {
+          "txId": 97
+        }
+      ]
+    },
+    "selectedTxIds": [
+      96,
+      97
+    ],
+    "selectedHashes": [
+      "0xf76e1e06753c8a4e15491a4e3b5413f180e6aa9fdad03e81d4979d2ce56ecffc",
+      "0x2b7bf8536bf3848c686b35671da7328803c3b75398ab119d87e166a9ba872e8e"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 96,
+          "item": "0xf76e1e06753c8a4e15491a4e3b5413f180e6aa9fdad03e81d4979d2ce56ecffc"
+        },
+        {
+          "txId": 97,
+          "item": "0x2b7bf8536bf3848c686b35671da7328803c3b75398ab119d87e166a9ba872e8e"
+        }
+      ]
+    },
+    "killers": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 96,
+          "item": "0xf76e1e06753c8a4e15491a4e3b5413f180e6aa9fdad03e81d4979d2ce56ecffc"
+        },
+        {
+          "txId": 97,
+          "item": "0x2b7bf8536bf3848c686b35671da7328803c3b75398ab119d87e166a9ba872e8e"
+        }
+      ]
+    },
+    "grounded": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 96,
+          "item": "0xf76e1e06753c8a4e15491a4e3b5413f180e6aa9fdad03e81d4979d2ce56ecffc"
+        },
+        {
+          "txId": 97,
+          "item": "0x2b7bf8536bf3848c686b35671da7328803c3b75398ab119d87e166a9ba872e8e"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 96,
+          "item": "0xf76e1e06753c8a4e15491a4e3b5413f180e6aa9fdad03e81d4979d2ce56ecffc"
+        },
+        {
+          "txId": 97,
+          "item": "0x2b7bf8536bf3848c686b35671da7328803c3b75398ab119d87e166a9ba872e8e"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 2
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 2,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.8,
+      "OR": 0,
+      "RR": 0,
+      "KR": 1
+    }
+  }
+}
