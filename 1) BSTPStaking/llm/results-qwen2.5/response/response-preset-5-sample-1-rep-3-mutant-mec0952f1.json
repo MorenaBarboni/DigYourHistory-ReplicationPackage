@@ -1,0 +1,151 @@
+{
+  "responseKey": "bstpstaking513mec0952f1",
+  "meta": {
+    "projectName": "bstpstaking",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 3,
+    "mutantHash": "mec0952f1"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0x119bb5b05d026a441a51d331d2e813d4a51e2ca676f9919b728dde31c94dc798",
+      "0xdd364115eefd88d44ddca902abb962bd1038efc911e81847f0d1911029cb83fc",
+      "0x281cd26d80e9cd95f098908b641c2534121c033c47795850d88fdab6f04f2af0",
+      "0xdabbd1bf365dd83a0175d5e359d11f8d109116b0745646ef8d2c6a2efcf851df",
+      "0xbf11d678dcdece15f7824e21c504ec11500448bd6eb50749dea8bda81bf85a81",
+      "0xf5162966dbd2c8c3b2195e7ee9c5e46a8dd1715287d079a5b92d312ca24045cd",
+      "0x27f6a02165b673e7008df197e38e096214cfb8e24d4ed54d9d7086bd62eb23c1",
+      "0x68fb332560fdf6ea1d74d8c4bfc3ff952f79df911ac17e478862c0aa1c736db3",
+      "0x262e2e527250bfc9fea90edce78f93b95ce16f345766eb2534ba2fb39906d951",
+      "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "qwen2.5:14b",
+      "created_at": "2026-04-30T09:38:11.632145771Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"selected\": [\n    {\n      \"txId\": 87\n    },\n    {\n      \"txId\": 93\n    }\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 362630315999,
+      "load_duration": 110360696,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 350483495349,
+      "eval_count": 36,
+      "eval_duration": 11278919167
+    },
+    "rawText": "{\n  \"selected\": [\n    {\n      \"txId\": 87\n    },\n    {\n      \"txId\": 93\n    }\n  ]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 87
+        },
+        {
+          "txId": 93
+        }
+      ]
+    },
+    "selectedTxIds": [
+      87,
+      93
+    ],
+    "selectedHashes": [
+      "0x262e2e527250bfc9fea90edce78f93b95ce16f345766eb2534ba2fb39906d951",
+      "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 87,
+          "item": "0x262e2e527250bfc9fea90edce78f93b95ce16f345766eb2534ba2fb39906d951"
+        },
+        {
+          "txId": 93,
+          "item": "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc"
+        }
+      ]
+    },
+    "killers": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 87,
+          "item": "0x262e2e527250bfc9fea90edce78f93b95ce16f345766eb2534ba2fb39906d951"
+        },
+        {
+          "txId": 93,
+          "item": "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc"
+        }
+      ]
+    },
+    "grounded": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 87,
+          "item": "0x262e2e527250bfc9fea90edce78f93b95ce16f345766eb2534ba2fb39906d951"
+        },
+        {
+          "txId": 93,
+          "item": "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 87,
+          "item": "0x262e2e527250bfc9fea90edce78f93b95ce16f345766eb2534ba2fb39906d951"
+        },
+        {
+          "txId": 93,
+          "item": "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 2
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 2,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.8,
+      "OR": 0,
+      "RR": 0,
+      "KR": 1
+    }
+  }
+}

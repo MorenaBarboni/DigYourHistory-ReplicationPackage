@@ -1,0 +1,125 @@
+{
+  "responseKey": "bstpstaking511mec0952f1",
+  "meta": {
+    "projectName": "bstpstaking",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 1,
+    "mutantHash": "mec0952f1"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0x119bb5b05d026a441a51d331d2e813d4a51e2ca676f9919b728dde31c94dc798",
+      "0xdd364115eefd88d44ddca902abb962bd1038efc911e81847f0d1911029cb83fc",
+      "0x281cd26d80e9cd95f098908b641c2534121c033c47795850d88fdab6f04f2af0",
+      "0xdabbd1bf365dd83a0175d5e359d11f8d109116b0745646ef8d2c6a2efcf851df",
+      "0xbf11d678dcdece15f7824e21c504ec11500448bd6eb50749dea8bda81bf85a81",
+      "0xf5162966dbd2c8c3b2195e7ee9c5e46a8dd1715287d079a5b92d312ca24045cd",
+      "0x27f6a02165b673e7008df197e38e096214cfb8e24d4ed54d9d7086bd62eb23c1",
+      "0x68fb332560fdf6ea1d74d8c4bfc3ff952f79df911ac17e478862c0aa1c736db3",
+      "0x262e2e527250bfc9fea90edce78f93b95ce16f345766eb2534ba2fb39906d951",
+      "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "qwen2.5:14b",
+      "created_at": "2026-04-30T09:26:05.880874711Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"selected\": [\n    {\n      \"txId\": 100\n    }\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 359059109987,
+      "load_duration": 124878706,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 350951152376,
+      "eval_count": 24,
+      "eval_duration": 7457720195
+    },
+    "rawText": "{\n  \"selected\": [\n    {\n      \"txId\": 100\n    }\n  ]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 100
+        }
+      ]
+    },
+    "selectedTxIds": [
+      100
+    ],
+    "selectedHashes": [
+      "0x5128048a20b3f3551214e395a08ff2339e1997e7b08c0b27a27ae4f565ff44be"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 1,
+      "instances": [
+        {
+          "txId": 100,
+          "item": "0x5128048a20b3f3551214e395a08ff2339e1997e7b08c0b27a27ae4f565ff44be"
+        }
+      ]
+    },
+    "killers": {
+      "count": 0,
+      "instances": []
+    },
+    "grounded": {
+      "count": 1,
+      "instances": [
+        {
+          "txId": 100,
+          "item": "0x5128048a20b3f3551214e395a08ff2339e1997e7b08c0b27a27ae4f565ff44be"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 1,
+      "instances": [
+        {
+          "txId": 100,
+          "item": "0x5128048a20b3f3551214e395a08ff2339e1997e7b08c0b27a27ae4f565ff44be"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 1
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 1,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.9,
+      "OR": 0,
+      "RR": 0,
+      "KR": 0
+    }
+  }
+}
