@@ -1,0 +1,125 @@
+{
+  "responseKey": "lucids515m97cfa4c9",
+  "meta": {
+    "projectName": "lucids",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 5,
+    "mutantHash": "m97cfa4c9"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0x4cb8e928a31b56c5f59f6b52de12256717d0b9932bb60a39d6307e0aa4e00c09",
+      "0x5747f617023dfdba73558b994f5b1334171c39dd3c82f7de40c31d262a2122d9",
+      "0x4a7928b952675af7f08fe149dbe6335de9ac84f457be6f9fed8dbb681b10af23",
+      "0x73a7e26683bc83c291bba268cdc7b178e3b28e07186ee9e448c10869f5852053",
+      "0xd2a30c379804e07b2bff994396866a941a9842a96dec81405d8f50a323e1e177",
+      "0x3b2d554767a7b6e58065031929bf010596c30ace53a729100237e6bc1736cf11",
+      "0x177d6292a1317676f9a316e530bec36c14813d22838bffc4f1613f3f778e834b",
+      "0xd97f7d7b58bdc00dd795a3ef2de6dbd4b80b80467a36a19a3a3c93dbee4bcffa",
+      "0x22cb2ab5313056e02f8af3387e853e27e4a9c30e48debf71ac5d4bf7c0929cb8",
+      "0xf90476ab809a4bd075dceaf216ec3abac1a3a70790cbd7bc11daa5511ddad01c"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "qwen2.5:14b",
+      "created_at": "2026-05-02T14:39:51.069286426Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"selected\": [\n    {\n      \"txId\": 100\n    }\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 356096455684,
+      "load_duration": 154949015,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 347923235393,
+      "eval_count": 24,
+      "eval_duration": 7482123417
+    },
+    "rawText": "{\n  \"selected\": [\n    {\n      \"txId\": 100\n    }\n  ]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 100
+        }
+      ]
+    },
+    "selectedTxIds": [
+      100
+    ],
+    "selectedHashes": [
+      "0x3c84c89b0108462bf19b620feb35f39252c7cf453b5839debaa7a9f694241560"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 1,
+      "instances": [
+        {
+          "txId": 100,
+          "item": "0x3c84c89b0108462bf19b620feb35f39252c7cf453b5839debaa7a9f694241560"
+        }
+      ]
+    },
+    "killers": {
+      "count": 0,
+      "instances": []
+    },
+    "grounded": {
+      "count": 1,
+      "instances": [
+        {
+          "txId": 100,
+          "item": "0x3c84c89b0108462bf19b620feb35f39252c7cf453b5839debaa7a9f694241560"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 1,
+      "instances": [
+        {
+          "txId": 100,
+          "item": "0x3c84c89b0108462bf19b620feb35f39252c7cf453b5839debaa7a9f694241560"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 1
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 1,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.9,
+      "OR": 0,
+      "RR": 0,
+      "KR": 0
+    }
+  }
+}

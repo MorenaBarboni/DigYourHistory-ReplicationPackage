@@ -1,0 +1,142 @@
+{
+  "responseKey": "lucids512m4c0c0a63",
+  "meta": {
+    "projectName": "lucids",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 2,
+    "mutantHash": "m4c0c0a63"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0x03946163bf00a8dae77f1c903f978c9d282b8cebac5c2968c2934da8c6b55c20",
+      "0x05d383bf56e76c78e9ed8fbf8949c56ce918df91f9c1945aa4a78548851b4e9d",
+      "0x4814ee02054520bae82148af70150af7c8dbfb45bb459217262d8d9c05e022b4",
+      "0x9908fd9e8b600c53e3f56c00594c6474aed923d6f769e961e2b3339858c787f7",
+      "0x1f14afdad80bf596095c2fc5b0058132082cc9838494cbe07fee816052cf6ff8",
+      "0x4b007cc13e021f263048d79bd6055d7d6d0b81697a2489fd03eb9d2958b809f1",
+      "0x120a5f33486051c5b5d115f4b286158e4d653fa2338a197b4d83289123a2e217",
+      "0x57fc72c6009d3c81d78a73eca259791e84f0784c4befd42abce5ad85153f6b37",
+      "0xf7383dd2b3cbb9622096578eab9aaff21cccdfd6e26699fe3a1a5f038a0d584b",
+      "0x3165580c5aba7f112ca238a27736cacbfc08a0c03803c9f102c27dcce351db96"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "deepseek-v2",
+      "created_at": "2026-04-24T14:43:03.822150712Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"selected\":[{\"txId\":99},{\"txId\":100}]}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 89055669581,
+      "load_duration": 103237305,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 86928479905,
+      "eval_count": 18,
+      "eval_duration": 1598833746
+    },
+    "rawText": "{\"selected\":[{\"txId\":99},{\"txId\":100}]}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 99
+        },
+        {
+          "txId": 100
+        }
+      ]
+    },
+    "selectedTxIds": [
+      99,
+      100
+    ],
+    "selectedHashes": [
+      "0x290c8f8237318dfc31ec7229a76f2d04b4cd103ab38ae4b0b16fb35eb22c8bf6",
+      "0xfc3a1a9bd85947faf8eaba53a9323f1f05672c5ab1bf017a5304587c2195c29b"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 99,
+          "item": "0x290c8f8237318dfc31ec7229a76f2d04b4cd103ab38ae4b0b16fb35eb22c8bf6"
+        },
+        {
+          "txId": 100,
+          "item": "0xfc3a1a9bd85947faf8eaba53a9323f1f05672c5ab1bf017a5304587c2195c29b"
+        }
+      ]
+    },
+    "killers": {
+      "count": 0,
+      "instances": []
+    },
+    "grounded": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 99,
+          "item": "0x290c8f8237318dfc31ec7229a76f2d04b4cd103ab38ae4b0b16fb35eb22c8bf6"
+        },
+        {
+          "txId": 100,
+          "item": "0xfc3a1a9bd85947faf8eaba53a9323f1f05672c5ab1bf017a5304587c2195c29b"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 99,
+          "item": "0x290c8f8237318dfc31ec7229a76f2d04b4cd103ab38ae4b0b16fb35eb22c8bf6"
+        },
+        {
+          "txId": 100,
+          "item": "0xfc3a1a9bd85947faf8eaba53a9323f1f05672c5ab1bf017a5304587c2195c29b"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 2
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 2,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.8,
+      "OR": 0,
+      "RR": 0,
+      "KR": 0
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "responseKey": "lucids514mf2e925ac",
+  "meta": {
+    "projectName": "lucids",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 4,
+    "mutantHash": "mf2e925ac"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0x90ea0d706eda7bc0c23cd9781ef8fd22606768601bd148eacac21221974362fe",
+      "0x835a2ad37b46af3a93fc07d0a1b4e4ab2078ab8e1bc1c1ce32f334adb8ef6fd0",
+      "0xe26a32a779646a98e0d2f9b2862d086c3991a90cc758c8d2142e38895eb1eb88",
+      "0x2ea7f1f255f5f726f021d676405a8067d860e42677dab48e612db03839da551d",
+      "0x5eb8926380aa242b3888b2a51a9a9f61e325aeaf85fdf30eddab897f2218c6a7",
+      "0x73a7e26683bc83c291bba268cdc7b178e3b28e07186ee9e448c10869f5852053",
+      "0xb883abf0ad5c9db3e38fa45902370e93569023789821b5b8d2d215a6e19261e8",
+      "0x2f25043b702ac69a72356f9de6eb0ad4f2524c69ffc77562ad47143a4ab7274f",
+      "0x76adfa02b3ecde5e60fee6a247d68b066be0371395a5a0d9f4dc82d78892da04",
+      "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "qwen2.5:14b",
+      "created_at": "2026-05-02T18:05:46.727405898Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"selected\": [\n    {\n      \"txId\": 95\n    },\n    {\n      \"txId\": 97\n    },\n    {\n      \"txId\": 98\n    }\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 366771778110,
+      "load_duration": 134518825,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 349677178258,
+      "eval_count": 49,
+      "eval_duration": 15935098258
+    },
+    "rawText": "{\n  \"selected\": [\n    {\n      \"txId\": 95\n    },\n    {\n      \"txId\": 97\n    },\n    {\n      \"txId\": 98\n    }\n  ]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 95
+        },
+        {
+          "txId": 97
+        },
+        {
+          "txId": 98
+        }
+      ]
+    },
+    "selectedTxIds": [
+      95,
+      97,
+      98
+    ],
+    "selectedHashes": [
+      "0xb0f2918f4cac4cb871d7f0697208673c354260d4f0ae000032f3cd08a744a452",
+      "0xbf324d40f3f9eddcfc2af5216ef1e7e8aba61a1ae5ab1fd545376b69a214820d",
+      "0xe1d7c08cdd44477dfc17814e27d44846c5b36f893c25599a73f2653d919cb087"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 3,
+      "instances": [
+        {
+          "txId": 95,
+          "item": "0xb0f2918f4cac4cb871d7f0697208673c354260d4f0ae000032f3cd08a744a452"
+        },
+        {
+          "txId": 97,
+          "item": "0xbf324d40f3f9eddcfc2af5216ef1e7e8aba61a1ae5ab1fd545376b69a214820d"
+        },
+        {
+          "txId": 98,
+          "item": "0xe1d7c08cdd44477dfc17814e27d44846c5b36f893c25599a73f2653d919cb087"
+        }
+      ]
+    },
+    "killers": {
+      "count": 0,
+      "instances": []
+    },
+    "grounded": {
+      "count": 3,
+      "instances": [
+        {
+          "txId": 95,
+          "item": "0xb0f2918f4cac4cb871d7f0697208673c354260d4f0ae000032f3cd08a744a452"
+        },
+        {
+          "txId": 97,
+          "item": "0xbf324d40f3f9eddcfc2af5216ef1e7e8aba61a1ae5ab1fd545376b69a214820d"
+        },
+        {
+          "txId": 98,
+          "item": "0xe1d7c08cdd44477dfc17814e27d44846c5b36f893c25599a73f2653d919cb087"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 3,
+      "instances": [
+        {
+          "txId": 95,
+          "item": "0xb0f2918f4cac4cb871d7f0697208673c354260d4f0ae000032f3cd08a744a452"
+        },
+        {
+          "txId": 97,
+          "item": "0xbf324d40f3f9eddcfc2af5216ef1e7e8aba61a1ae5ab1fd545376b69a214820d"
+        },
+        {
+          "txId": 98,
+          "item": "0xe1d7c08cdd44477dfc17814e27d44846c5b36f893c25599a73f2653d919cb087"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 3
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 3,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.7,
+      "OR": 0,
+      "RR": 0,
+      "KR": 0
+    }
+  }
+}

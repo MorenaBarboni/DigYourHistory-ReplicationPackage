@@ -1,0 +1,151 @@
+{
+  "responseKey": "lucids514m92818968",
+  "meta": {
+    "projectName": "lucids",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 4,
+    "mutantHash": "m92818968"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0xbaebc42e5fcf993f9c8e340877bb1dedeeca6c17dfe0b70f117eeccfdda1fca2",
+      "0x94d0f0464018957eb9a4acf30306557d2e8117364fdd883f813da4d50a9a4162",
+      "0x177d6292a1317676f9a316e530bec36c14813d22838bffc4f1613f3f778e834b",
+      "0xf267ca1dd303c30822a9bf197ad5ce5dbe1275c3b57c4c60a02611a5c86c6edd",
+      "0x7601ef23e36699227d2c2919d75d11c309c260a99491b6b47f6793f0a6bf33bc",
+      "0x5f9fef9c7b876ff2c00066f24eaac3e2b896fdd5d8adeb939865a534b5972c77",
+      "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc",
+      "0xa452fd0c2aff019a7b5cc6332576ff9113c0c819a48fb3c3363d487e3b1a062c",
+      "0x0f925237882bfe823b6bcb8b3b2fb847f127ec18ac85d06f42d898bd44ba70aa",
+      "0xd0f6ede3d816e7c77a7add709948f01805cbd4dae0be040dc37902f1af6c7913"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "qwen2.5:14b",
+      "created_at": "2026-05-02T13:33:55.914070672Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"selected\": [\n    {\n      \"txId\": 93\n    },\n    {\n      \"txId\": 94\n    }\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 359656168463,
+      "load_duration": 180014463,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 347369227919,
+      "eval_count": 36,
+      "eval_duration": 11280326523
+    },
+    "rawText": "{\n  \"selected\": [\n    {\n      \"txId\": 93\n    },\n    {\n      \"txId\": 94\n    }\n  ]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 93
+        },
+        {
+          "txId": 94
+        }
+      ]
+    },
+    "selectedTxIds": [
+      93,
+      94
+    ],
+    "selectedHashes": [
+      "0x0f925237882bfe823b6bcb8b3b2fb847f127ec18ac85d06f42d898bd44ba70aa",
+      "0xd0f6ede3d816e7c77a7add709948f01805cbd4dae0be040dc37902f1af6c7913"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 93,
+          "item": "0x0f925237882bfe823b6bcb8b3b2fb847f127ec18ac85d06f42d898bd44ba70aa"
+        },
+        {
+          "txId": 94,
+          "item": "0xd0f6ede3d816e7c77a7add709948f01805cbd4dae0be040dc37902f1af6c7913"
+        }
+      ]
+    },
+    "killers": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 93,
+          "item": "0x0f925237882bfe823b6bcb8b3b2fb847f127ec18ac85d06f42d898bd44ba70aa"
+        },
+        {
+          "txId": 94,
+          "item": "0xd0f6ede3d816e7c77a7add709948f01805cbd4dae0be040dc37902f1af6c7913"
+        }
+      ]
+    },
+    "grounded": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 93,
+          "item": "0x0f925237882bfe823b6bcb8b3b2fb847f127ec18ac85d06f42d898bd44ba70aa"
+        },
+        {
+          "txId": 94,
+          "item": "0xd0f6ede3d816e7c77a7add709948f01805cbd4dae0be040dc37902f1af6c7913"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 2,
+      "instances": [
+        {
+          "txId": 93,
+          "item": "0x0f925237882bfe823b6bcb8b3b2fb847f127ec18ac85d06f42d898bd44ba70aa"
+        },
+        {
+          "txId": 94,
+          "item": "0xd0f6ede3d816e7c77a7add709948f01805cbd4dae0be040dc37902f1af6c7913"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "underfill",
+        "expected": 10,
+        "actual": 2
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_underfill"
+    ],
+    "metrics": {
+      "j": 2,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0.8,
+      "OR": 0,
+      "RR": 0,
+      "KR": 1
+    }
+  }
+}

@@ -1,0 +1,1709 @@
+{
+  "responseKey": "lucids515m05b840cb",
+  "meta": {
+    "projectName": "lucids",
+    "presetId": 5,
+    "sampleId": "1",
+    "repetitionId": 5,
+    "mutantHash": "m05b840cb"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0xb883abf0ad5c9db3e38fa45902370e93569023789821b5b8d2d215a6e19261e8",
+      "0xc3e62dea263ec455d7eccd9d55fe41a85adc08a8df584556ec9b6ac1a79c27a6",
+      "0xf1d0990235bc08d4c66810334725a0a67b3681580ca9ce9f597269e17bd26edc",
+      "0x82ff076fcc08fa871558f7ed8c81b72e6ffe88c856755fa3b77ba161b1e5ecb3",
+      "0xcafcc4f02a2010f16aa39abc5d866f97704a1afe86e19e553f2d1fc453c67bf2",
+      "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc",
+      "0x9194c730b98e35d17352ac2323bf2c648063dd2657d899f12816e331e885cf11",
+      "0x9c0b0476b143351aaf9162b8c277aea831d83f0ba250d35505306de31f8200b7",
+      "0xf90476ab809a4bd075dceaf216ec3abac1a3a70790cbd7bc11daa5511ddad01c",
+      "0x905ca4b2467d2b360320e4288efae497fbe889af683ecd35ed70fa53f80d4af6"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "model": "deepseek-v2",
+      "created_at": "2026-04-24T13:37:56.194831679Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"selected\":[{\"txId\":1},{\"txId\":2},{\"txId\":3},{\"txId\":4},{\"txId\":5},{\"txId\":6},{\"txId\":7},{\"txId\":8},{\"txId\":9},{\"txId\":10},{\"txId\":11},{\"txId\":12},{\"txId\":13},{\"txId\":14},{\"txId\":15},{\"txId\":16},{\"txId\":17},{\"txId\":18},{\"txId\":19},{\"txId\":20},{\"txId\":21},{\"txId\":22},{\"txId\":23},{\"txId\":24},{\"txId\":25},{\"txId\":26},{\"txId\":27},{\"txId\":28},{\"txId\":29},{\"txId\":30},{\"txId\":31},{\"txId\":32},{\"txId\":33},{\"txId\":34},{\"txId\":35},{\"txId\":36},{\"txId\":37},{\"txId\":38},{\"txId\":39},{\"txId\":40},{\"txId\":41},{\"txId\":42},{\"txId\":43},{\"txId\":44},{\"txId\":45},{\"txId\":46},{\"txId\":47},{\"txId\":48},{\"txId\":49},{\"txId\":50},{\"txId\":51},{\"txId\":52},{\"txId\":53},{\"txId\":54},{\"txId\":55},{\"txId\":56},{\"txId\":57},{\"txId\":58},{\"txId\":59},{\"txId\":60},{\"txId\":61},{\"txId\":62},{\"txId\":63},{\"txId\":64},{\"txId\":65},{\"txId\":66},{\"txId\":67},{\"txId\":68},{\"txId\":69},{\"txId\":70},{\"txId\":71},{\"txId\":72},{\"txId\":73},{\"txId\":74},{\"txId\":75},{\"txId\":76},{\"txId\":77},{\"txId\":78},{\"txId\":79},{\"txId\":80},{\"txId\":81},{\"txId\":82},{\"txId\":83},{\"txId\":84},{\"txId\":85},{\"txId\":86},{\"txId\":87},{\"txId\":88},{\"txId\":89},{\"txId\":90},{\"txId\":91},{\"txId\":92}]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 142203926524,
+      "load_duration": 104337212,
+      "prompt_eval_count": 4096,
+      "prompt_eval_duration": 86173382939,
+      "eval_count": 550,
+      "eval_duration": 47831568919
+    },
+    "rawText": "{\"selected\":[{\"txId\":1},{\"txId\":2},{\"txId\":3},{\"txId\":4},{\"txId\":5},{\"txId\":6},{\"txId\":7},{\"txId\":8},{\"txId\":9},{\"txId\":10},{\"txId\":11},{\"txId\":12},{\"txId\":13},{\"txId\":14},{\"txId\":15},{\"txId\":16},{\"txId\":17},{\"txId\":18},{\"txId\":19},{\"txId\":20},{\"txId\":21},{\"txId\":22},{\"txId\":23},{\"txId\":24},{\"txId\":25},{\"txId\":26},{\"txId\":27},{\"txId\":28},{\"txId\":29},{\"txId\":30},{\"txId\":31},{\"txId\":32},{\"txId\":33},{\"txId\":34},{\"txId\":35},{\"txId\":36},{\"txId\":37},{\"txId\":38},{\"txId\":39},{\"txId\":40},{\"txId\":41},{\"txId\":42},{\"txId\":43},{\"txId\":44},{\"txId\":45},{\"txId\":46},{\"txId\":47},{\"txId\":48},{\"txId\":49},{\"txId\":50},{\"txId\":51},{\"txId\":52},{\"txId\":53},{\"txId\":54},{\"txId\":55},{\"txId\":56},{\"txId\":57},{\"txId\":58},{\"txId\":59},{\"txId\":60},{\"txId\":61},{\"txId\":62},{\"txId\":63},{\"txId\":64},{\"txId\":65},{\"txId\":66},{\"txId\":67},{\"txId\":68},{\"txId\":69},{\"txId\":70},{\"txId\":71},{\"txId\":72},{\"txId\":73},{\"txId\":74},{\"txId\":75},{\"txId\":76},{\"txId\":77},{\"txId\":78},{\"txId\":79},{\"txId\":80},{\"txId\":81},{\"txId\":82},{\"txId\":83},{\"txId\":84},{\"txId\":85},{\"txId\":86},{\"txId\":87},{\"txId\":88},{\"txId\":89},{\"txId\":90},{\"txId\":91},{\"txId\":92}]\n}",
+    "parsedJSON": {
+      "selected": [
+        {
+          "txId": 1
+        },
+        {
+          "txId": 2
+        },
+        {
+          "txId": 3
+        },
+        {
+          "txId": 4
+        },
+        {
+          "txId": 5
+        },
+        {
+          "txId": 6
+        },
+        {
+          "txId": 7
+        },
+        {
+          "txId": 8
+        },
+        {
+          "txId": 9
+        },
+        {
+          "txId": 10
+        },
+        {
+          "txId": 11
+        },
+        {
+          "txId": 12
+        },
+        {
+          "txId": 13
+        },
+        {
+          "txId": 14
+        },
+        {
+          "txId": 15
+        },
+        {
+          "txId": 16
+        },
+        {
+          "txId": 17
+        },
+        {
+          "txId": 18
+        },
+        {
+          "txId": 19
+        },
+        {
+          "txId": 20
+        },
+        {
+          "txId": 21
+        },
+        {
+          "txId": 22
+        },
+        {
+          "txId": 23
+        },
+        {
+          "txId": 24
+        },
+        {
+          "txId": 25
+        },
+        {
+          "txId": 26
+        },
+        {
+          "txId": 27
+        },
+        {
+          "txId": 28
+        },
+        {
+          "txId": 29
+        },
+        {
+          "txId": 30
+        },
+        {
+          "txId": 31
+        },
+        {
+          "txId": 32
+        },
+        {
+          "txId": 33
+        },
+        {
+          "txId": 34
+        },
+        {
+          "txId": 35
+        },
+        {
+          "txId": 36
+        },
+        {
+          "txId": 37
+        },
+        {
+          "txId": 38
+        },
+        {
+          "txId": 39
+        },
+        {
+          "txId": 40
+        },
+        {
+          "txId": 41
+        },
+        {
+          "txId": 42
+        },
+        {
+          "txId": 43
+        },
+        {
+          "txId": 44
+        },
+        {
+          "txId": 45
+        },
+        {
+          "txId": 46
+        },
+        {
+          "txId": 47
+        },
+        {
+          "txId": 48
+        },
+        {
+          "txId": 49
+        },
+        {
+          "txId": 50
+        },
+        {
+          "txId": 51
+        },
+        {
+          "txId": 52
+        },
+        {
+          "txId": 53
+        },
+        {
+          "txId": 54
+        },
+        {
+          "txId": 55
+        },
+        {
+          "txId": 56
+        },
+        {
+          "txId": 57
+        },
+        {
+          "txId": 58
+        },
+        {
+          "txId": 59
+        },
+        {
+          "txId": 60
+        },
+        {
+          "txId": 61
+        },
+        {
+          "txId": 62
+        },
+        {
+          "txId": 63
+        },
+        {
+          "txId": 64
+        },
+        {
+          "txId": 65
+        },
+        {
+          "txId": 66
+        },
+        {
+          "txId": 67
+        },
+        {
+          "txId": 68
+        },
+        {
+          "txId": 69
+        },
+        {
+          "txId": 70
+        },
+        {
+          "txId": 71
+        },
+        {
+          "txId": 72
+        },
+        {
+          "txId": 73
+        },
+        {
+          "txId": 74
+        },
+        {
+          "txId": 75
+        },
+        {
+          "txId": 76
+        },
+        {
+          "txId": 77
+        },
+        {
+          "txId": 78
+        },
+        {
+          "txId": 79
+        },
+        {
+          "txId": 80
+        },
+        {
+          "txId": 81
+        },
+        {
+          "txId": 82
+        },
+        {
+          "txId": 83
+        },
+        {
+          "txId": 84
+        },
+        {
+          "txId": 85
+        },
+        {
+          "txId": 86
+        },
+        {
+          "txId": 87
+        },
+        {
+          "txId": 88
+        },
+        {
+          "txId": 89
+        },
+        {
+          "txId": 90
+        },
+        {
+          "txId": 91
+        },
+        {
+          "txId": 92
+        }
+      ]
+    },
+    "selectedTxIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "selectedHashes": [
+      "0xa01df8e402dc5fb8a19f6be68b1e75be8a103cebe6944b88d07851c2b94215ba",
+      "0xeaf64012d32e989474a2bda3cc585c818137c05fa9156b7dc605c1a7270377b5",
+      "0xa85b686e16a576e235d29060e51cf1297f3c8d6b81baf3d5c0c8a10eec695515",
+      "0xe07aff57bbd6b6b8d6a5982201b82d04b65eba901b71a18283b8e571624be171",
+      "0xaa9e07de54f9345ee0c8edf5cff0906d111a57d1620aa3cf9c182f79f1177e36",
+      "0x330d62fed22b8cec82abe8e9e8d0232e5534b13220d857c4baa28a267b13aa8d",
+      "0x977cdff33468ae163f1d379597ad590e0706b799683835824c29e42e1e305dc1",
+      "0xb9f0db185f53318f1302b18a537ed5be02e575f63a66cd74af07da3080218d69",
+      "0xb883abf0ad5c9db3e38fa45902370e93569023789821b5b8d2d215a6e19261e8",
+      "0xefa6f3cf825de01c8a243d615380d1616a3baab37f295aa6e1eb27dc8f183b8d",
+      "0x4623d696da597cecbc51bc2c46c2f754f5398629f47b7f8b65198f3a5d1d2f56",
+      "0x943f1567395e980d96638f4b5a5c8bcc8d13de8a055a5e80412b2d169f848c37",
+      "0xf61455c2c6ac968795e015c6360d6e3bb346d4e278ad10f9ebd4646aa69b1ba1",
+      "0x5197289afea56489120d791d0d9b2c894786837f2cd9614271d5b2f4ced277e9",
+      "0x89de40051cbeeffb455797fcc4fb2851e9d55dce1bc6c76ff129e40d6fe9a36e",
+      "0xe6cb4a06a4697561621f4b4eac0b057a1d22325d7407113c6cb217f2c6f8faef",
+      "0xe901f9ee6a3092051624630e4808b307784a5eb00e18410c5b6675af86d0e34e",
+      "0xc3e62dea263ec455d7eccd9d55fe41a85adc08a8df584556ec9b6ac1a79c27a6",
+      "0x86eeb3bf06d56ddecc608b26f79b2bd1cc2f30cf8a82b073599ce86f80c94131",
+      "0xd19dde85ab109b597f6b2457e59e1a44af9b04ad01468bfc47dc195ed1f1590e",
+      "0x43dc470c518788227cf8303abbd461ebe3eebf2bc135bff139e401f9bd25c04a",
+      "0xba5ee906163a3b78c9de64bb66dbc72c2d54ebd0c2bb78a7c43b866399012982",
+      "0xdf2caec6b1ce6fe2e861d4dac6b2080a88a60a0aa3b2bd453e9d808aa557e34c",
+      "0x250e2d1f433b2f5eb34a43c993ab26f61ae120fee6cbe248878b561924713143",
+      "0x96719bc051c1b1504ae1bfbbcb365227b60a831516c9b96f575646f634bd4f32",
+      "0x43745367409f12bdd2ba04e6513a33b2ec00e25114309b0a2163c8dd79a8ffad",
+      "0xdd2db7682df1e8c08992a23222ca898c57ff7fc953440c0116128f72897d8345",
+      "0xf1d0990235bc08d4c66810334725a0a67b3681580ca9ce9f597269e17bd26edc",
+      "0x223fcf9c86f8eb19f299a1abdb951dccd8ef4d871b7141c3e74bc7b9f964c9c1",
+      "0x2f852f4e58fc15e077789cd0e5ae2dceb136eb94c6dd94be6e0f841ae0d9d849",
+      "0x49cde52d5a3b11ac497fc31c2a9e09ae4860fa056fec0c9c1079f971b63f7f67",
+      "0x11028913b44fd68f0c322ac3af8c27164cc74d7dc374cadc3381f3ae9fba13bf",
+      "0x8025a29b946c5ecd3ad5e14a079ecd817027d4e683ab31e755b4cc677c295019",
+      "0x75d17c414e8746edf35a7ad9157ed888756c4a4e0dd2eb2d636b446844fc0a69",
+      "0x4faa4e5493f5d129a9c30c448c6091178ce362c3bb782fcd63c70f082a9be769",
+      "0x89278f971e6b71e3fcbe732e8ec16b0978addeceb11301f72cb83d72567041b1",
+      "0xc1195eae95bbcc70ebfccbf0c277a6605a3622c22952ae7e47315f7b77bec8db",
+      "0x82ff076fcc08fa871558f7ed8c81b72e6ffe88c856755fa3b77ba161b1e5ecb3",
+      "0xd78481ed41385d8a510de73ff2f29f3117b64b281f06d3392aa43796eee08fcc",
+      "0x194891c650544c8f95dbcecbce295fe235ed432dc042ae7403e86fe1f48765cc",
+      "0xfd9ede77efb1e034f9934f4165db61f2b58b98d40719e153f71fce62fce8c4c5",
+      "0xe4470a3eb416cd16884eb05a03d15c5100985f3b8c7c2aa59c4ed5702b3d35ce",
+      "0x8f5b51b7f25b6c729090ef102bb5ebe5e08ca1406c3c72f8272f696ced5536f1",
+      "0xe3e5d2316be7469eee1e17585e314c53b0efe947ee81b49a21cd5f0ec6b860f0",
+      "0xcafcc4f02a2010f16aa39abc5d866f97704a1afe86e19e553f2d1fc453c67bf2",
+      "0xc92253f3c2590fb9b482064632abf428738598b585612b2d1f39bc27ec164e65",
+      "0x096b7b983b6b10db23d930ccb494ad215d04d2565edfe53b0767cdee6f29b9e1",
+      "0xd2dbdc6ae7ab8d47b82a3055b0cba8151fccb3da5ec155371b092c2863aed299",
+      "0xb2244a3640e64624d4e11bc7468d5a1f4256b08863df2342fbdaeb7fb7128736",
+      "0x79491fe70b4ba39589eec3e0588203854b5d7611175ea400d79bff56190f799f",
+      "0x2ec16d55ab1c36d5d3ea1c6e73d0cb2bdf07a0a1911bb06cd586810f90dcb696",
+      "0x24109892c9aa067d51563d433a40982a7fee5e9417fb1e274ca70f440896a865",
+      "0x71a5ddd913dc3c8c8d8b65af514259893fb139b49e52c24d58fb44f23a42852c",
+      "0x0c3f6783b06298d6299beab22e92c164b1dab85e2e6a4c6f9c4b17c05ea7e584",
+      "0x6786333f12cf3047fb33d889d83115c101942c3110a3e9f2142d5459329c672d",
+      "0xa6e5e686a9f02541d38fd546c0548ba0ee410089ecb0f0d0435dd1d2d49863ad",
+      "0x2dfbaf0035524d97b3daa902e60ca8af32e15c34b08e5e00e716f14eaab82cd1",
+      "0xcb9a338d4184e4de315b0cc4752884b06601bcf1d2fadb4eec400f424d4b293e",
+      "0xad774129ff08b544dd3eb37cbf873cd4efc75d4c253fcc0298489e82a1fac452",
+      "0x63f3c31fb7177a1150635068a9ad6e4fcaa7621a6e3233988a8fc72abfbf1381",
+      "0xe810990f0a49ba2d38d2742e4c1dc98545ca161e88994fafe3799b409960e965",
+      "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc",
+      "0x4aa82683709eeaa6b538397fdc4ac519dc2cf836b0c741bbcb58f387a3dbd610",
+      "0x7ed0bbb80adf7d46cb6a663a71458d1f74dd23019f1760d87e46e9a4fd332c2b",
+      "0xfe4f02ca3c8f2c7dac522b55c84f0861289c337d05cb1c22676125b381a88e2d",
+      "0xe459d6dd83bfac7bd7060484208d0513679b858a514b5fef2a65c3d4a92d2916",
+      "0x6bb83327062012f16a35818e96a2466e41a296c6cd8df2a8fc5011bcf478d992",
+      "0xd42885446f9b6ee41e11eff90dab9dcae5319790a476b45f4f63dbffbd861de9",
+      "0x6a108b6d294e26585decef5ffd2ba93f8bd3d546cbe2de9d25c3cee76906ba19",
+      "0x9908fd9e8b600c53e3f56c00594c6474aed923d6f769e961e2b3339858c787f7",
+      "0xfa40025a52dc9ee5681accde21ab2312e0b9faedb855f6d434c0853f30fcb12c",
+      "0x5a01112e58d0d3ed7780886b133d23fb87a3587e52b97cf43fb28bb68b61a9d8",
+      "0xce0d31ce775c4a69629351e4041f728e9c3205307818b2c6a3b90c3b41200615",
+      "0xc25128772de22786f365979f0b14c2899851a1970f3cd91666e233defb727aea",
+      "0xf9414e6545542c76728b1ad3e0fc32d0f20641df94f0000d7fe1a7f907a5ee52",
+      "0x7b2c53007fbdc1aa5229c761955a267b06f778de9692a734427994648ac04df6",
+      "0xc822da52df96e80b3712464ff99949f4d922557143049274ea114b04e9c78f0b",
+      "0x2bde7bab7d93bc9f5c9f486be65f6ad07eef9f495c1713a8d07560975a449afe",
+      "0xbf91183d3c4230a1ce1c540f58d056ebeddc5842a47eb6f2ea155d8dbf91bbbc",
+      "0xcccbce57dcb7e7f89e4d0f798897593d23aea27bcbef9ff6e95acfe5126912e6",
+      "0xe772755692f6db5fc775f3faad5bd524683e45a01d5528072fd032a7c7ac52d6",
+      "0x9194c730b98e35d17352ac2323bf2c648063dd2657d899f12816e331e885cf11",
+      "0x2acc46273d9d7f3f4292ed677dce36a5f05ff1dfdcbbbccdcf62e514ba7118c9",
+      "0x9c0b0476b143351aaf9162b8c277aea831d83f0ba250d35505306de31f8200b7",
+      "0xf90476ab809a4bd075dceaf216ec3abac1a3a70790cbd7bc11daa5511ddad01c",
+      "0x34b65df618b00752c173d9683f2dc931b598c229a45484e618f6c4304d3b0a59",
+      "0x8bd9ece22c2e396b5e718ba55258caffa1bba8f2d63dbc18eb4a96b349c5383d",
+      "0xd8f0b95dc1cc8df953af4d55f7c3fd80b1b0dcb66a8611b783fafaa3ada03621",
+      "0x75b09f07a8a77a73ef304f81b44afe19491ef75624186f2d658634b727bccd3c",
+      "0xdd612181529b571d260b4c84f2f0130d624b26eb48f6f70db5e91616ed188d72",
+      "0x66a694c9445110faed8d88db67300a193c56a30b9e4304bee6a387bca29c0ed9",
+      "0x4cb1ccaf1592cf0f5e42f7a2651da8b6a7ce11d10dafe20381e102be0e953743"
+    ]
+  },
+  "analysis": {
+    "valid": {
+      "count": 92,
+      "instances": [
+        {
+          "txId": 1,
+          "item": "0xa01df8e402dc5fb8a19f6be68b1e75be8a103cebe6944b88d07851c2b94215ba"
+        },
+        {
+          "txId": 2,
+          "item": "0xeaf64012d32e989474a2bda3cc585c818137c05fa9156b7dc605c1a7270377b5"
+        },
+        {
+          "txId": 3,
+          "item": "0xa85b686e16a576e235d29060e51cf1297f3c8d6b81baf3d5c0c8a10eec695515"
+        },
+        {
+          "txId": 4,
+          "item": "0xe07aff57bbd6b6b8d6a5982201b82d04b65eba901b71a18283b8e571624be171"
+        },
+        {
+          "txId": 5,
+          "item": "0xaa9e07de54f9345ee0c8edf5cff0906d111a57d1620aa3cf9c182f79f1177e36"
+        },
+        {
+          "txId": 6,
+          "item": "0x330d62fed22b8cec82abe8e9e8d0232e5534b13220d857c4baa28a267b13aa8d"
+        },
+        {
+          "txId": 7,
+          "item": "0x977cdff33468ae163f1d379597ad590e0706b799683835824c29e42e1e305dc1"
+        },
+        {
+          "txId": 8,
+          "item": "0xb9f0db185f53318f1302b18a537ed5be02e575f63a66cd74af07da3080218d69"
+        },
+        {
+          "txId": 9,
+          "item": "0xb883abf0ad5c9db3e38fa45902370e93569023789821b5b8d2d215a6e19261e8"
+        },
+        {
+          "txId": 10,
+          "item": "0xefa6f3cf825de01c8a243d615380d1616a3baab37f295aa6e1eb27dc8f183b8d"
+        },
+        {
+          "txId": 11,
+          "item": "0x4623d696da597cecbc51bc2c46c2f754f5398629f47b7f8b65198f3a5d1d2f56"
+        },
+        {
+          "txId": 12,
+          "item": "0x943f1567395e980d96638f4b5a5c8bcc8d13de8a055a5e80412b2d169f848c37"
+        },
+        {
+          "txId": 13,
+          "item": "0xf61455c2c6ac968795e015c6360d6e3bb346d4e278ad10f9ebd4646aa69b1ba1"
+        },
+        {
+          "txId": 14,
+          "item": "0x5197289afea56489120d791d0d9b2c894786837f2cd9614271d5b2f4ced277e9"
+        },
+        {
+          "txId": 15,
+          "item": "0x89de40051cbeeffb455797fcc4fb2851e9d55dce1bc6c76ff129e40d6fe9a36e"
+        },
+        {
+          "txId": 16,
+          "item": "0xe6cb4a06a4697561621f4b4eac0b057a1d22325d7407113c6cb217f2c6f8faef"
+        },
+        {
+          "txId": 17,
+          "item": "0xe901f9ee6a3092051624630e4808b307784a5eb00e18410c5b6675af86d0e34e"
+        },
+        {
+          "txId": 18,
+          "item": "0xc3e62dea263ec455d7eccd9d55fe41a85adc08a8df584556ec9b6ac1a79c27a6"
+        },
+        {
+          "txId": 19,
+          "item": "0x86eeb3bf06d56ddecc608b26f79b2bd1cc2f30cf8a82b073599ce86f80c94131"
+        },
+        {
+          "txId": 20,
+          "item": "0xd19dde85ab109b597f6b2457e59e1a44af9b04ad01468bfc47dc195ed1f1590e"
+        },
+        {
+          "txId": 21,
+          "item": "0x43dc470c518788227cf8303abbd461ebe3eebf2bc135bff139e401f9bd25c04a"
+        },
+        {
+          "txId": 22,
+          "item": "0xba5ee906163a3b78c9de64bb66dbc72c2d54ebd0c2bb78a7c43b866399012982"
+        },
+        {
+          "txId": 23,
+          "item": "0xdf2caec6b1ce6fe2e861d4dac6b2080a88a60a0aa3b2bd453e9d808aa557e34c"
+        },
+        {
+          "txId": 24,
+          "item": "0x250e2d1f433b2f5eb34a43c993ab26f61ae120fee6cbe248878b561924713143"
+        },
+        {
+          "txId": 25,
+          "item": "0x96719bc051c1b1504ae1bfbbcb365227b60a831516c9b96f575646f634bd4f32"
+        },
+        {
+          "txId": 26,
+          "item": "0x43745367409f12bdd2ba04e6513a33b2ec00e25114309b0a2163c8dd79a8ffad"
+        },
+        {
+          "txId": 27,
+          "item": "0xdd2db7682df1e8c08992a23222ca898c57ff7fc953440c0116128f72897d8345"
+        },
+        {
+          "txId": 28,
+          "item": "0xf1d0990235bc08d4c66810334725a0a67b3681580ca9ce9f597269e17bd26edc"
+        },
+        {
+          "txId": 29,
+          "item": "0x223fcf9c86f8eb19f299a1abdb951dccd8ef4d871b7141c3e74bc7b9f964c9c1"
+        },
+        {
+          "txId": 30,
+          "item": "0x2f852f4e58fc15e077789cd0e5ae2dceb136eb94c6dd94be6e0f841ae0d9d849"
+        },
+        {
+          "txId": 31,
+          "item": "0x49cde52d5a3b11ac497fc31c2a9e09ae4860fa056fec0c9c1079f971b63f7f67"
+        },
+        {
+          "txId": 32,
+          "item": "0x11028913b44fd68f0c322ac3af8c27164cc74d7dc374cadc3381f3ae9fba13bf"
+        },
+        {
+          "txId": 33,
+          "item": "0x8025a29b946c5ecd3ad5e14a079ecd817027d4e683ab31e755b4cc677c295019"
+        },
+        {
+          "txId": 34,
+          "item": "0x75d17c414e8746edf35a7ad9157ed888756c4a4e0dd2eb2d636b446844fc0a69"
+        },
+        {
+          "txId": 35,
+          "item": "0x4faa4e5493f5d129a9c30c448c6091178ce362c3bb782fcd63c70f082a9be769"
+        },
+        {
+          "txId": 36,
+          "item": "0x89278f971e6b71e3fcbe732e8ec16b0978addeceb11301f72cb83d72567041b1"
+        },
+        {
+          "txId": 37,
+          "item": "0xc1195eae95bbcc70ebfccbf0c277a6605a3622c22952ae7e47315f7b77bec8db"
+        },
+        {
+          "txId": 38,
+          "item": "0x82ff076fcc08fa871558f7ed8c81b72e6ffe88c856755fa3b77ba161b1e5ecb3"
+        },
+        {
+          "txId": 39,
+          "item": "0xd78481ed41385d8a510de73ff2f29f3117b64b281f06d3392aa43796eee08fcc"
+        },
+        {
+          "txId": 40,
+          "item": "0x194891c650544c8f95dbcecbce295fe235ed432dc042ae7403e86fe1f48765cc"
+        },
+        {
+          "txId": 41,
+          "item": "0xfd9ede77efb1e034f9934f4165db61f2b58b98d40719e153f71fce62fce8c4c5"
+        },
+        {
+          "txId": 42,
+          "item": "0xe4470a3eb416cd16884eb05a03d15c5100985f3b8c7c2aa59c4ed5702b3d35ce"
+        },
+        {
+          "txId": 43,
+          "item": "0x8f5b51b7f25b6c729090ef102bb5ebe5e08ca1406c3c72f8272f696ced5536f1"
+        },
+        {
+          "txId": 44,
+          "item": "0xe3e5d2316be7469eee1e17585e314c53b0efe947ee81b49a21cd5f0ec6b860f0"
+        },
+        {
+          "txId": 45,
+          "item": "0xcafcc4f02a2010f16aa39abc5d866f97704a1afe86e19e553f2d1fc453c67bf2"
+        },
+        {
+          "txId": 46,
+          "item": "0xc92253f3c2590fb9b482064632abf428738598b585612b2d1f39bc27ec164e65"
+        },
+        {
+          "txId": 47,
+          "item": "0x096b7b983b6b10db23d930ccb494ad215d04d2565edfe53b0767cdee6f29b9e1"
+        },
+        {
+          "txId": 48,
+          "item": "0xd2dbdc6ae7ab8d47b82a3055b0cba8151fccb3da5ec155371b092c2863aed299"
+        },
+        {
+          "txId": 49,
+          "item": "0xb2244a3640e64624d4e11bc7468d5a1f4256b08863df2342fbdaeb7fb7128736"
+        },
+        {
+          "txId": 50,
+          "item": "0x79491fe70b4ba39589eec3e0588203854b5d7611175ea400d79bff56190f799f"
+        },
+        {
+          "txId": 51,
+          "item": "0x2ec16d55ab1c36d5d3ea1c6e73d0cb2bdf07a0a1911bb06cd586810f90dcb696"
+        },
+        {
+          "txId": 52,
+          "item": "0x24109892c9aa067d51563d433a40982a7fee5e9417fb1e274ca70f440896a865"
+        },
+        {
+          "txId": 53,
+          "item": "0x71a5ddd913dc3c8c8d8b65af514259893fb139b49e52c24d58fb44f23a42852c"
+        },
+        {
+          "txId": 54,
+          "item": "0x0c3f6783b06298d6299beab22e92c164b1dab85e2e6a4c6f9c4b17c05ea7e584"
+        },
+        {
+          "txId": 55,
+          "item": "0x6786333f12cf3047fb33d889d83115c101942c3110a3e9f2142d5459329c672d"
+        },
+        {
+          "txId": 56,
+          "item": "0xa6e5e686a9f02541d38fd546c0548ba0ee410089ecb0f0d0435dd1d2d49863ad"
+        },
+        {
+          "txId": 57,
+          "item": "0x2dfbaf0035524d97b3daa902e60ca8af32e15c34b08e5e00e716f14eaab82cd1"
+        },
+        {
+          "txId": 58,
+          "item": "0xcb9a338d4184e4de315b0cc4752884b06601bcf1d2fadb4eec400f424d4b293e"
+        },
+        {
+          "txId": 59,
+          "item": "0xad774129ff08b544dd3eb37cbf873cd4efc75d4c253fcc0298489e82a1fac452"
+        },
+        {
+          "txId": 60,
+          "item": "0x63f3c31fb7177a1150635068a9ad6e4fcaa7621a6e3233988a8fc72abfbf1381"
+        },
+        {
+          "txId": 61,
+          "item": "0xe810990f0a49ba2d38d2742e4c1dc98545ca161e88994fafe3799b409960e965"
+        },
+        {
+          "txId": 62,
+          "item": "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc"
+        },
+        {
+          "txId": 63,
+          "item": "0x4aa82683709eeaa6b538397fdc4ac519dc2cf836b0c741bbcb58f387a3dbd610"
+        },
+        {
+          "txId": 64,
+          "item": "0x7ed0bbb80adf7d46cb6a663a71458d1f74dd23019f1760d87e46e9a4fd332c2b"
+        },
+        {
+          "txId": 65,
+          "item": "0xfe4f02ca3c8f2c7dac522b55c84f0861289c337d05cb1c22676125b381a88e2d"
+        },
+        {
+          "txId": 66,
+          "item": "0xe459d6dd83bfac7bd7060484208d0513679b858a514b5fef2a65c3d4a92d2916"
+        },
+        {
+          "txId": 67,
+          "item": "0x6bb83327062012f16a35818e96a2466e41a296c6cd8df2a8fc5011bcf478d992"
+        },
+        {
+          "txId": 68,
+          "item": "0xd42885446f9b6ee41e11eff90dab9dcae5319790a476b45f4f63dbffbd861de9"
+        },
+        {
+          "txId": 69,
+          "item": "0x6a108b6d294e26585decef5ffd2ba93f8bd3d546cbe2de9d25c3cee76906ba19"
+        },
+        {
+          "txId": 70,
+          "item": "0x9908fd9e8b600c53e3f56c00594c6474aed923d6f769e961e2b3339858c787f7"
+        },
+        {
+          "txId": 71,
+          "item": "0xfa40025a52dc9ee5681accde21ab2312e0b9faedb855f6d434c0853f30fcb12c"
+        },
+        {
+          "txId": 72,
+          "item": "0x5a01112e58d0d3ed7780886b133d23fb87a3587e52b97cf43fb28bb68b61a9d8"
+        },
+        {
+          "txId": 73,
+          "item": "0xce0d31ce775c4a69629351e4041f728e9c3205307818b2c6a3b90c3b41200615"
+        },
+        {
+          "txId": 74,
+          "item": "0xc25128772de22786f365979f0b14c2899851a1970f3cd91666e233defb727aea"
+        },
+        {
+          "txId": 75,
+          "item": "0xf9414e6545542c76728b1ad3e0fc32d0f20641df94f0000d7fe1a7f907a5ee52"
+        },
+        {
+          "txId": 76,
+          "item": "0x7b2c53007fbdc1aa5229c761955a267b06f778de9692a734427994648ac04df6"
+        },
+        {
+          "txId": 77,
+          "item": "0xc822da52df96e80b3712464ff99949f4d922557143049274ea114b04e9c78f0b"
+        },
+        {
+          "txId": 78,
+          "item": "0x2bde7bab7d93bc9f5c9f486be65f6ad07eef9f495c1713a8d07560975a449afe"
+        },
+        {
+          "txId": 79,
+          "item": "0xbf91183d3c4230a1ce1c540f58d056ebeddc5842a47eb6f2ea155d8dbf91bbbc"
+        },
+        {
+          "txId": 80,
+          "item": "0xcccbce57dcb7e7f89e4d0f798897593d23aea27bcbef9ff6e95acfe5126912e6"
+        },
+        {
+          "txId": 81,
+          "item": "0xe772755692f6db5fc775f3faad5bd524683e45a01d5528072fd032a7c7ac52d6"
+        },
+        {
+          "txId": 82,
+          "item": "0x9194c730b98e35d17352ac2323bf2c648063dd2657d899f12816e331e885cf11"
+        },
+        {
+          "txId": 83,
+          "item": "0x2acc46273d9d7f3f4292ed677dce36a5f05ff1dfdcbbbccdcf62e514ba7118c9"
+        },
+        {
+          "txId": 84,
+          "item": "0x9c0b0476b143351aaf9162b8c277aea831d83f0ba250d35505306de31f8200b7"
+        },
+        {
+          "txId": 85,
+          "item": "0xf90476ab809a4bd075dceaf216ec3abac1a3a70790cbd7bc11daa5511ddad01c"
+        },
+        {
+          "txId": 86,
+          "item": "0x34b65df618b00752c173d9683f2dc931b598c229a45484e618f6c4304d3b0a59"
+        },
+        {
+          "txId": 87,
+          "item": "0x8bd9ece22c2e396b5e718ba55258caffa1bba8f2d63dbc18eb4a96b349c5383d"
+        },
+        {
+          "txId": 88,
+          "item": "0xd8f0b95dc1cc8df953af4d55f7c3fd80b1b0dcb66a8611b783fafaa3ada03621"
+        },
+        {
+          "txId": 89,
+          "item": "0x75b09f07a8a77a73ef304f81b44afe19491ef75624186f2d658634b727bccd3c"
+        },
+        {
+          "txId": 90,
+          "item": "0xdd612181529b571d260b4c84f2f0130d624b26eb48f6f70db5e91616ed188d72"
+        },
+        {
+          "txId": 91,
+          "item": "0x66a694c9445110faed8d88db67300a193c56a30b9e4304bee6a387bca29c0ed9"
+        },
+        {
+          "txId": 92,
+          "item": "0x4cb1ccaf1592cf0f5e42f7a2651da8b6a7ce11d10dafe20381e102be0e953743"
+        }
+      ]
+    },
+    "killers": {
+      "count": 9,
+      "instances": [
+        {
+          "txId": 9,
+          "item": "0xb883abf0ad5c9db3e38fa45902370e93569023789821b5b8d2d215a6e19261e8"
+        },
+        {
+          "txId": 18,
+          "item": "0xc3e62dea263ec455d7eccd9d55fe41a85adc08a8df584556ec9b6ac1a79c27a6"
+        },
+        {
+          "txId": 28,
+          "item": "0xf1d0990235bc08d4c66810334725a0a67b3681580ca9ce9f597269e17bd26edc"
+        },
+        {
+          "txId": 38,
+          "item": "0x82ff076fcc08fa871558f7ed8c81b72e6ffe88c856755fa3b77ba161b1e5ecb3"
+        },
+        {
+          "txId": 45,
+          "item": "0xcafcc4f02a2010f16aa39abc5d866f97704a1afe86e19e553f2d1fc453c67bf2"
+        },
+        {
+          "txId": 62,
+          "item": "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc"
+        },
+        {
+          "txId": 82,
+          "item": "0x9194c730b98e35d17352ac2323bf2c648063dd2657d899f12816e331e885cf11"
+        },
+        {
+          "txId": 84,
+          "item": "0x9c0b0476b143351aaf9162b8c277aea831d83f0ba250d35505306de31f8200b7"
+        },
+        {
+          "txId": 85,
+          "item": "0xf90476ab809a4bd075dceaf216ec3abac1a3a70790cbd7bc11daa5511ddad01c"
+        }
+      ]
+    },
+    "grounded": {
+      "count": 92,
+      "instances": [
+        {
+          "txId": 1,
+          "item": "0xa01df8e402dc5fb8a19f6be68b1e75be8a103cebe6944b88d07851c2b94215ba"
+        },
+        {
+          "txId": 2,
+          "item": "0xeaf64012d32e989474a2bda3cc585c818137c05fa9156b7dc605c1a7270377b5"
+        },
+        {
+          "txId": 3,
+          "item": "0xa85b686e16a576e235d29060e51cf1297f3c8d6b81baf3d5c0c8a10eec695515"
+        },
+        {
+          "txId": 4,
+          "item": "0xe07aff57bbd6b6b8d6a5982201b82d04b65eba901b71a18283b8e571624be171"
+        },
+        {
+          "txId": 5,
+          "item": "0xaa9e07de54f9345ee0c8edf5cff0906d111a57d1620aa3cf9c182f79f1177e36"
+        },
+        {
+          "txId": 6,
+          "item": "0x330d62fed22b8cec82abe8e9e8d0232e5534b13220d857c4baa28a267b13aa8d"
+        },
+        {
+          "txId": 7,
+          "item": "0x977cdff33468ae163f1d379597ad590e0706b799683835824c29e42e1e305dc1"
+        },
+        {
+          "txId": 8,
+          "item": "0xb9f0db185f53318f1302b18a537ed5be02e575f63a66cd74af07da3080218d69"
+        },
+        {
+          "txId": 9,
+          "item": "0xb883abf0ad5c9db3e38fa45902370e93569023789821b5b8d2d215a6e19261e8"
+        },
+        {
+          "txId": 10,
+          "item": "0xefa6f3cf825de01c8a243d615380d1616a3baab37f295aa6e1eb27dc8f183b8d"
+        },
+        {
+          "txId": 11,
+          "item": "0x4623d696da597cecbc51bc2c46c2f754f5398629f47b7f8b65198f3a5d1d2f56"
+        },
+        {
+          "txId": 12,
+          "item": "0x943f1567395e980d96638f4b5a5c8bcc8d13de8a055a5e80412b2d169f848c37"
+        },
+        {
+          "txId": 13,
+          "item": "0xf61455c2c6ac968795e015c6360d6e3bb346d4e278ad10f9ebd4646aa69b1ba1"
+        },
+        {
+          "txId": 14,
+          "item": "0x5197289afea56489120d791d0d9b2c894786837f2cd9614271d5b2f4ced277e9"
+        },
+        {
+          "txId": 15,
+          "item": "0x89de40051cbeeffb455797fcc4fb2851e9d55dce1bc6c76ff129e40d6fe9a36e"
+        },
+        {
+          "txId": 16,
+          "item": "0xe6cb4a06a4697561621f4b4eac0b057a1d22325d7407113c6cb217f2c6f8faef"
+        },
+        {
+          "txId": 17,
+          "item": "0xe901f9ee6a3092051624630e4808b307784a5eb00e18410c5b6675af86d0e34e"
+        },
+        {
+          "txId": 18,
+          "item": "0xc3e62dea263ec455d7eccd9d55fe41a85adc08a8df584556ec9b6ac1a79c27a6"
+        },
+        {
+          "txId": 19,
+          "item": "0x86eeb3bf06d56ddecc608b26f79b2bd1cc2f30cf8a82b073599ce86f80c94131"
+        },
+        {
+          "txId": 20,
+          "item": "0xd19dde85ab109b597f6b2457e59e1a44af9b04ad01468bfc47dc195ed1f1590e"
+        },
+        {
+          "txId": 21,
+          "item": "0x43dc470c518788227cf8303abbd461ebe3eebf2bc135bff139e401f9bd25c04a"
+        },
+        {
+          "txId": 22,
+          "item": "0xba5ee906163a3b78c9de64bb66dbc72c2d54ebd0c2bb78a7c43b866399012982"
+        },
+        {
+          "txId": 23,
+          "item": "0xdf2caec6b1ce6fe2e861d4dac6b2080a88a60a0aa3b2bd453e9d808aa557e34c"
+        },
+        {
+          "txId": 24,
+          "item": "0x250e2d1f433b2f5eb34a43c993ab26f61ae120fee6cbe248878b561924713143"
+        },
+        {
+          "txId": 25,
+          "item": "0x96719bc051c1b1504ae1bfbbcb365227b60a831516c9b96f575646f634bd4f32"
+        },
+        {
+          "txId": 26,
+          "item": "0x43745367409f12bdd2ba04e6513a33b2ec00e25114309b0a2163c8dd79a8ffad"
+        },
+        {
+          "txId": 27,
+          "item": "0xdd2db7682df1e8c08992a23222ca898c57ff7fc953440c0116128f72897d8345"
+        },
+        {
+          "txId": 28,
+          "item": "0xf1d0990235bc08d4c66810334725a0a67b3681580ca9ce9f597269e17bd26edc"
+        },
+        {
+          "txId": 29,
+          "item": "0x223fcf9c86f8eb19f299a1abdb951dccd8ef4d871b7141c3e74bc7b9f964c9c1"
+        },
+        {
+          "txId": 30,
+          "item": "0x2f852f4e58fc15e077789cd0e5ae2dceb136eb94c6dd94be6e0f841ae0d9d849"
+        },
+        {
+          "txId": 31,
+          "item": "0x49cde52d5a3b11ac497fc31c2a9e09ae4860fa056fec0c9c1079f971b63f7f67"
+        },
+        {
+          "txId": 32,
+          "item": "0x11028913b44fd68f0c322ac3af8c27164cc74d7dc374cadc3381f3ae9fba13bf"
+        },
+        {
+          "txId": 33,
+          "item": "0x8025a29b946c5ecd3ad5e14a079ecd817027d4e683ab31e755b4cc677c295019"
+        },
+        {
+          "txId": 34,
+          "item": "0x75d17c414e8746edf35a7ad9157ed888756c4a4e0dd2eb2d636b446844fc0a69"
+        },
+        {
+          "txId": 35,
+          "item": "0x4faa4e5493f5d129a9c30c448c6091178ce362c3bb782fcd63c70f082a9be769"
+        },
+        {
+          "txId": 36,
+          "item": "0x89278f971e6b71e3fcbe732e8ec16b0978addeceb11301f72cb83d72567041b1"
+        },
+        {
+          "txId": 37,
+          "item": "0xc1195eae95bbcc70ebfccbf0c277a6605a3622c22952ae7e47315f7b77bec8db"
+        },
+        {
+          "txId": 38,
+          "item": "0x82ff076fcc08fa871558f7ed8c81b72e6ffe88c856755fa3b77ba161b1e5ecb3"
+        },
+        {
+          "txId": 39,
+          "item": "0xd78481ed41385d8a510de73ff2f29f3117b64b281f06d3392aa43796eee08fcc"
+        },
+        {
+          "txId": 40,
+          "item": "0x194891c650544c8f95dbcecbce295fe235ed432dc042ae7403e86fe1f48765cc"
+        },
+        {
+          "txId": 41,
+          "item": "0xfd9ede77efb1e034f9934f4165db61f2b58b98d40719e153f71fce62fce8c4c5"
+        },
+        {
+          "txId": 42,
+          "item": "0xe4470a3eb416cd16884eb05a03d15c5100985f3b8c7c2aa59c4ed5702b3d35ce"
+        },
+        {
+          "txId": 43,
+          "item": "0x8f5b51b7f25b6c729090ef102bb5ebe5e08ca1406c3c72f8272f696ced5536f1"
+        },
+        {
+          "txId": 44,
+          "item": "0xe3e5d2316be7469eee1e17585e314c53b0efe947ee81b49a21cd5f0ec6b860f0"
+        },
+        {
+          "txId": 45,
+          "item": "0xcafcc4f02a2010f16aa39abc5d866f97704a1afe86e19e553f2d1fc453c67bf2"
+        },
+        {
+          "txId": 46,
+          "item": "0xc92253f3c2590fb9b482064632abf428738598b585612b2d1f39bc27ec164e65"
+        },
+        {
+          "txId": 47,
+          "item": "0x096b7b983b6b10db23d930ccb494ad215d04d2565edfe53b0767cdee6f29b9e1"
+        },
+        {
+          "txId": 48,
+          "item": "0xd2dbdc6ae7ab8d47b82a3055b0cba8151fccb3da5ec155371b092c2863aed299"
+        },
+        {
+          "txId": 49,
+          "item": "0xb2244a3640e64624d4e11bc7468d5a1f4256b08863df2342fbdaeb7fb7128736"
+        },
+        {
+          "txId": 50,
+          "item": "0x79491fe70b4ba39589eec3e0588203854b5d7611175ea400d79bff56190f799f"
+        },
+        {
+          "txId": 51,
+          "item": "0x2ec16d55ab1c36d5d3ea1c6e73d0cb2bdf07a0a1911bb06cd586810f90dcb696"
+        },
+        {
+          "txId": 52,
+          "item": "0x24109892c9aa067d51563d433a40982a7fee5e9417fb1e274ca70f440896a865"
+        },
+        {
+          "txId": 53,
+          "item": "0x71a5ddd913dc3c8c8d8b65af514259893fb139b49e52c24d58fb44f23a42852c"
+        },
+        {
+          "txId": 54,
+          "item": "0x0c3f6783b06298d6299beab22e92c164b1dab85e2e6a4c6f9c4b17c05ea7e584"
+        },
+        {
+          "txId": 55,
+          "item": "0x6786333f12cf3047fb33d889d83115c101942c3110a3e9f2142d5459329c672d"
+        },
+        {
+          "txId": 56,
+          "item": "0xa6e5e686a9f02541d38fd546c0548ba0ee410089ecb0f0d0435dd1d2d49863ad"
+        },
+        {
+          "txId": 57,
+          "item": "0x2dfbaf0035524d97b3daa902e60ca8af32e15c34b08e5e00e716f14eaab82cd1"
+        },
+        {
+          "txId": 58,
+          "item": "0xcb9a338d4184e4de315b0cc4752884b06601bcf1d2fadb4eec400f424d4b293e"
+        },
+        {
+          "txId": 59,
+          "item": "0xad774129ff08b544dd3eb37cbf873cd4efc75d4c253fcc0298489e82a1fac452"
+        },
+        {
+          "txId": 60,
+          "item": "0x63f3c31fb7177a1150635068a9ad6e4fcaa7621a6e3233988a8fc72abfbf1381"
+        },
+        {
+          "txId": 61,
+          "item": "0xe810990f0a49ba2d38d2742e4c1dc98545ca161e88994fafe3799b409960e965"
+        },
+        {
+          "txId": 62,
+          "item": "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc"
+        },
+        {
+          "txId": 63,
+          "item": "0x4aa82683709eeaa6b538397fdc4ac519dc2cf836b0c741bbcb58f387a3dbd610"
+        },
+        {
+          "txId": 64,
+          "item": "0x7ed0bbb80adf7d46cb6a663a71458d1f74dd23019f1760d87e46e9a4fd332c2b"
+        },
+        {
+          "txId": 65,
+          "item": "0xfe4f02ca3c8f2c7dac522b55c84f0861289c337d05cb1c22676125b381a88e2d"
+        },
+        {
+          "txId": 66,
+          "item": "0xe459d6dd83bfac7bd7060484208d0513679b858a514b5fef2a65c3d4a92d2916"
+        },
+        {
+          "txId": 67,
+          "item": "0x6bb83327062012f16a35818e96a2466e41a296c6cd8df2a8fc5011bcf478d992"
+        },
+        {
+          "txId": 68,
+          "item": "0xd42885446f9b6ee41e11eff90dab9dcae5319790a476b45f4f63dbffbd861de9"
+        },
+        {
+          "txId": 69,
+          "item": "0x6a108b6d294e26585decef5ffd2ba93f8bd3d546cbe2de9d25c3cee76906ba19"
+        },
+        {
+          "txId": 70,
+          "item": "0x9908fd9e8b600c53e3f56c00594c6474aed923d6f769e961e2b3339858c787f7"
+        },
+        {
+          "txId": 71,
+          "item": "0xfa40025a52dc9ee5681accde21ab2312e0b9faedb855f6d434c0853f30fcb12c"
+        },
+        {
+          "txId": 72,
+          "item": "0x5a01112e58d0d3ed7780886b133d23fb87a3587e52b97cf43fb28bb68b61a9d8"
+        },
+        {
+          "txId": 73,
+          "item": "0xce0d31ce775c4a69629351e4041f728e9c3205307818b2c6a3b90c3b41200615"
+        },
+        {
+          "txId": 74,
+          "item": "0xc25128772de22786f365979f0b14c2899851a1970f3cd91666e233defb727aea"
+        },
+        {
+          "txId": 75,
+          "item": "0xf9414e6545542c76728b1ad3e0fc32d0f20641df94f0000d7fe1a7f907a5ee52"
+        },
+        {
+          "txId": 76,
+          "item": "0x7b2c53007fbdc1aa5229c761955a267b06f778de9692a734427994648ac04df6"
+        },
+        {
+          "txId": 77,
+          "item": "0xc822da52df96e80b3712464ff99949f4d922557143049274ea114b04e9c78f0b"
+        },
+        {
+          "txId": 78,
+          "item": "0x2bde7bab7d93bc9f5c9f486be65f6ad07eef9f495c1713a8d07560975a449afe"
+        },
+        {
+          "txId": 79,
+          "item": "0xbf91183d3c4230a1ce1c540f58d056ebeddc5842a47eb6f2ea155d8dbf91bbbc"
+        },
+        {
+          "txId": 80,
+          "item": "0xcccbce57dcb7e7f89e4d0f798897593d23aea27bcbef9ff6e95acfe5126912e6"
+        },
+        {
+          "txId": 81,
+          "item": "0xe772755692f6db5fc775f3faad5bd524683e45a01d5528072fd032a7c7ac52d6"
+        },
+        {
+          "txId": 82,
+          "item": "0x9194c730b98e35d17352ac2323bf2c648063dd2657d899f12816e331e885cf11"
+        },
+        {
+          "txId": 83,
+          "item": "0x2acc46273d9d7f3f4292ed677dce36a5f05ff1dfdcbbbccdcf62e514ba7118c9"
+        },
+        {
+          "txId": 84,
+          "item": "0x9c0b0476b143351aaf9162b8c277aea831d83f0ba250d35505306de31f8200b7"
+        },
+        {
+          "txId": 85,
+          "item": "0xf90476ab809a4bd075dceaf216ec3abac1a3a70790cbd7bc11daa5511ddad01c"
+        },
+        {
+          "txId": 86,
+          "item": "0x34b65df618b00752c173d9683f2dc931b598c229a45484e618f6c4304d3b0a59"
+        },
+        {
+          "txId": 87,
+          "item": "0x8bd9ece22c2e396b5e718ba55258caffa1bba8f2d63dbc18eb4a96b349c5383d"
+        },
+        {
+          "txId": 88,
+          "item": "0xd8f0b95dc1cc8df953af4d55f7c3fd80b1b0dcb66a8611b783fafaa3ada03621"
+        },
+        {
+          "txId": 89,
+          "item": "0x75b09f07a8a77a73ef304f81b44afe19491ef75624186f2d658634b727bccd3c"
+        },
+        {
+          "txId": 90,
+          "item": "0xdd612181529b571d260b4c84f2f0130d624b26eb48f6f70db5e91616ed188d72"
+        },
+        {
+          "txId": 91,
+          "item": "0x66a694c9445110faed8d88db67300a193c56a30b9e4304bee6a387bca29c0ed9"
+        },
+        {
+          "txId": 92,
+          "item": "0x4cb1ccaf1592cf0f5e42f7a2651da8b6a7ce11d10dafe20381e102be0e953743"
+        }
+      ]
+    },
+    "uniques": {
+      "count": 92,
+      "instances": [
+        {
+          "txId": 1,
+          "item": "0xa01df8e402dc5fb8a19f6be68b1e75be8a103cebe6944b88d07851c2b94215ba"
+        },
+        {
+          "txId": 2,
+          "item": "0xeaf64012d32e989474a2bda3cc585c818137c05fa9156b7dc605c1a7270377b5"
+        },
+        {
+          "txId": 3,
+          "item": "0xa85b686e16a576e235d29060e51cf1297f3c8d6b81baf3d5c0c8a10eec695515"
+        },
+        {
+          "txId": 4,
+          "item": "0xe07aff57bbd6b6b8d6a5982201b82d04b65eba901b71a18283b8e571624be171"
+        },
+        {
+          "txId": 5,
+          "item": "0xaa9e07de54f9345ee0c8edf5cff0906d111a57d1620aa3cf9c182f79f1177e36"
+        },
+        {
+          "txId": 6,
+          "item": "0x330d62fed22b8cec82abe8e9e8d0232e5534b13220d857c4baa28a267b13aa8d"
+        },
+        {
+          "txId": 7,
+          "item": "0x977cdff33468ae163f1d379597ad590e0706b799683835824c29e42e1e305dc1"
+        },
+        {
+          "txId": 8,
+          "item": "0xb9f0db185f53318f1302b18a537ed5be02e575f63a66cd74af07da3080218d69"
+        },
+        {
+          "txId": 9,
+          "item": "0xb883abf0ad5c9db3e38fa45902370e93569023789821b5b8d2d215a6e19261e8"
+        },
+        {
+          "txId": 10,
+          "item": "0xefa6f3cf825de01c8a243d615380d1616a3baab37f295aa6e1eb27dc8f183b8d"
+        },
+        {
+          "txId": 11,
+          "item": "0x4623d696da597cecbc51bc2c46c2f754f5398629f47b7f8b65198f3a5d1d2f56"
+        },
+        {
+          "txId": 12,
+          "item": "0x943f1567395e980d96638f4b5a5c8bcc8d13de8a055a5e80412b2d169f848c37"
+        },
+        {
+          "txId": 13,
+          "item": "0xf61455c2c6ac968795e015c6360d6e3bb346d4e278ad10f9ebd4646aa69b1ba1"
+        },
+        {
+          "txId": 14,
+          "item": "0x5197289afea56489120d791d0d9b2c894786837f2cd9614271d5b2f4ced277e9"
+        },
+        {
+          "txId": 15,
+          "item": "0x89de40051cbeeffb455797fcc4fb2851e9d55dce1bc6c76ff129e40d6fe9a36e"
+        },
+        {
+          "txId": 16,
+          "item": "0xe6cb4a06a4697561621f4b4eac0b057a1d22325d7407113c6cb217f2c6f8faef"
+        },
+        {
+          "txId": 17,
+          "item": "0xe901f9ee6a3092051624630e4808b307784a5eb00e18410c5b6675af86d0e34e"
+        },
+        {
+          "txId": 18,
+          "item": "0xc3e62dea263ec455d7eccd9d55fe41a85adc08a8df584556ec9b6ac1a79c27a6"
+        },
+        {
+          "txId": 19,
+          "item": "0x86eeb3bf06d56ddecc608b26f79b2bd1cc2f30cf8a82b073599ce86f80c94131"
+        },
+        {
+          "txId": 20,
+          "item": "0xd19dde85ab109b597f6b2457e59e1a44af9b04ad01468bfc47dc195ed1f1590e"
+        },
+        {
+          "txId": 21,
+          "item": "0x43dc470c518788227cf8303abbd461ebe3eebf2bc135bff139e401f9bd25c04a"
+        },
+        {
+          "txId": 22,
+          "item": "0xba5ee906163a3b78c9de64bb66dbc72c2d54ebd0c2bb78a7c43b866399012982"
+        },
+        {
+          "txId": 23,
+          "item": "0xdf2caec6b1ce6fe2e861d4dac6b2080a88a60a0aa3b2bd453e9d808aa557e34c"
+        },
+        {
+          "txId": 24,
+          "item": "0x250e2d1f433b2f5eb34a43c993ab26f61ae120fee6cbe248878b561924713143"
+        },
+        {
+          "txId": 25,
+          "item": "0x96719bc051c1b1504ae1bfbbcb365227b60a831516c9b96f575646f634bd4f32"
+        },
+        {
+          "txId": 26,
+          "item": "0x43745367409f12bdd2ba04e6513a33b2ec00e25114309b0a2163c8dd79a8ffad"
+        },
+        {
+          "txId": 27,
+          "item": "0xdd2db7682df1e8c08992a23222ca898c57ff7fc953440c0116128f72897d8345"
+        },
+        {
+          "txId": 28,
+          "item": "0xf1d0990235bc08d4c66810334725a0a67b3681580ca9ce9f597269e17bd26edc"
+        },
+        {
+          "txId": 29,
+          "item": "0x223fcf9c86f8eb19f299a1abdb951dccd8ef4d871b7141c3e74bc7b9f964c9c1"
+        },
+        {
+          "txId": 30,
+          "item": "0x2f852f4e58fc15e077789cd0e5ae2dceb136eb94c6dd94be6e0f841ae0d9d849"
+        },
+        {
+          "txId": 31,
+          "item": "0x49cde52d5a3b11ac497fc31c2a9e09ae4860fa056fec0c9c1079f971b63f7f67"
+        },
+        {
+          "txId": 32,
+          "item": "0x11028913b44fd68f0c322ac3af8c27164cc74d7dc374cadc3381f3ae9fba13bf"
+        },
+        {
+          "txId": 33,
+          "item": "0x8025a29b946c5ecd3ad5e14a079ecd817027d4e683ab31e755b4cc677c295019"
+        },
+        {
+          "txId": 34,
+          "item": "0x75d17c414e8746edf35a7ad9157ed888756c4a4e0dd2eb2d636b446844fc0a69"
+        },
+        {
+          "txId": 35,
+          "item": "0x4faa4e5493f5d129a9c30c448c6091178ce362c3bb782fcd63c70f082a9be769"
+        },
+        {
+          "txId": 36,
+          "item": "0x89278f971e6b71e3fcbe732e8ec16b0978addeceb11301f72cb83d72567041b1"
+        },
+        {
+          "txId": 37,
+          "item": "0xc1195eae95bbcc70ebfccbf0c277a6605a3622c22952ae7e47315f7b77bec8db"
+        },
+        {
+          "txId": 38,
+          "item": "0x82ff076fcc08fa871558f7ed8c81b72e6ffe88c856755fa3b77ba161b1e5ecb3"
+        },
+        {
+          "txId": 39,
+          "item": "0xd78481ed41385d8a510de73ff2f29f3117b64b281f06d3392aa43796eee08fcc"
+        },
+        {
+          "txId": 40,
+          "item": "0x194891c650544c8f95dbcecbce295fe235ed432dc042ae7403e86fe1f48765cc"
+        },
+        {
+          "txId": 41,
+          "item": "0xfd9ede77efb1e034f9934f4165db61f2b58b98d40719e153f71fce62fce8c4c5"
+        },
+        {
+          "txId": 42,
+          "item": "0xe4470a3eb416cd16884eb05a03d15c5100985f3b8c7c2aa59c4ed5702b3d35ce"
+        },
+        {
+          "txId": 43,
+          "item": "0x8f5b51b7f25b6c729090ef102bb5ebe5e08ca1406c3c72f8272f696ced5536f1"
+        },
+        {
+          "txId": 44,
+          "item": "0xe3e5d2316be7469eee1e17585e314c53b0efe947ee81b49a21cd5f0ec6b860f0"
+        },
+        {
+          "txId": 45,
+          "item": "0xcafcc4f02a2010f16aa39abc5d866f97704a1afe86e19e553f2d1fc453c67bf2"
+        },
+        {
+          "txId": 46,
+          "item": "0xc92253f3c2590fb9b482064632abf428738598b585612b2d1f39bc27ec164e65"
+        },
+        {
+          "txId": 47,
+          "item": "0x096b7b983b6b10db23d930ccb494ad215d04d2565edfe53b0767cdee6f29b9e1"
+        },
+        {
+          "txId": 48,
+          "item": "0xd2dbdc6ae7ab8d47b82a3055b0cba8151fccb3da5ec155371b092c2863aed299"
+        },
+        {
+          "txId": 49,
+          "item": "0xb2244a3640e64624d4e11bc7468d5a1f4256b08863df2342fbdaeb7fb7128736"
+        },
+        {
+          "txId": 50,
+          "item": "0x79491fe70b4ba39589eec3e0588203854b5d7611175ea400d79bff56190f799f"
+        },
+        {
+          "txId": 51,
+          "item": "0x2ec16d55ab1c36d5d3ea1c6e73d0cb2bdf07a0a1911bb06cd586810f90dcb696"
+        },
+        {
+          "txId": 52,
+          "item": "0x24109892c9aa067d51563d433a40982a7fee5e9417fb1e274ca70f440896a865"
+        },
+        {
+          "txId": 53,
+          "item": "0x71a5ddd913dc3c8c8d8b65af514259893fb139b49e52c24d58fb44f23a42852c"
+        },
+        {
+          "txId": 54,
+          "item": "0x0c3f6783b06298d6299beab22e92c164b1dab85e2e6a4c6f9c4b17c05ea7e584"
+        },
+        {
+          "txId": 55,
+          "item": "0x6786333f12cf3047fb33d889d83115c101942c3110a3e9f2142d5459329c672d"
+        },
+        {
+          "txId": 56,
+          "item": "0xa6e5e686a9f02541d38fd546c0548ba0ee410089ecb0f0d0435dd1d2d49863ad"
+        },
+        {
+          "txId": 57,
+          "item": "0x2dfbaf0035524d97b3daa902e60ca8af32e15c34b08e5e00e716f14eaab82cd1"
+        },
+        {
+          "txId": 58,
+          "item": "0xcb9a338d4184e4de315b0cc4752884b06601bcf1d2fadb4eec400f424d4b293e"
+        },
+        {
+          "txId": 59,
+          "item": "0xad774129ff08b544dd3eb37cbf873cd4efc75d4c253fcc0298489e82a1fac452"
+        },
+        {
+          "txId": 60,
+          "item": "0x63f3c31fb7177a1150635068a9ad6e4fcaa7621a6e3233988a8fc72abfbf1381"
+        },
+        {
+          "txId": 61,
+          "item": "0xe810990f0a49ba2d38d2742e4c1dc98545ca161e88994fafe3799b409960e965"
+        },
+        {
+          "txId": 62,
+          "item": "0x5ce565c47517ff2361d66387a6b367c4d107ab09123fa62aab44934c0d4824fc"
+        },
+        {
+          "txId": 63,
+          "item": "0x4aa82683709eeaa6b538397fdc4ac519dc2cf836b0c741bbcb58f387a3dbd610"
+        },
+        {
+          "txId": 64,
+          "item": "0x7ed0bbb80adf7d46cb6a663a71458d1f74dd23019f1760d87e46e9a4fd332c2b"
+        },
+        {
+          "txId": 65,
+          "item": "0xfe4f02ca3c8f2c7dac522b55c84f0861289c337d05cb1c22676125b381a88e2d"
+        },
+        {
+          "txId": 66,
+          "item": "0xe459d6dd83bfac7bd7060484208d0513679b858a514b5fef2a65c3d4a92d2916"
+        },
+        {
+          "txId": 67,
+          "item": "0x6bb83327062012f16a35818e96a2466e41a296c6cd8df2a8fc5011bcf478d992"
+        },
+        {
+          "txId": 68,
+          "item": "0xd42885446f9b6ee41e11eff90dab9dcae5319790a476b45f4f63dbffbd861de9"
+        },
+        {
+          "txId": 69,
+          "item": "0x6a108b6d294e26585decef5ffd2ba93f8bd3d546cbe2de9d25c3cee76906ba19"
+        },
+        {
+          "txId": 70,
+          "item": "0x9908fd9e8b600c53e3f56c00594c6474aed923d6f769e961e2b3339858c787f7"
+        },
+        {
+          "txId": 71,
+          "item": "0xfa40025a52dc9ee5681accde21ab2312e0b9faedb855f6d434c0853f30fcb12c"
+        },
+        {
+          "txId": 72,
+          "item": "0x5a01112e58d0d3ed7780886b133d23fb87a3587e52b97cf43fb28bb68b61a9d8"
+        },
+        {
+          "txId": 73,
+          "item": "0xce0d31ce775c4a69629351e4041f728e9c3205307818b2c6a3b90c3b41200615"
+        },
+        {
+          "txId": 74,
+          "item": "0xc25128772de22786f365979f0b14c2899851a1970f3cd91666e233defb727aea"
+        },
+        {
+          "txId": 75,
+          "item": "0xf9414e6545542c76728b1ad3e0fc32d0f20641df94f0000d7fe1a7f907a5ee52"
+        },
+        {
+          "txId": 76,
+          "item": "0x7b2c53007fbdc1aa5229c761955a267b06f778de9692a734427994648ac04df6"
+        },
+        {
+          "txId": 77,
+          "item": "0xc822da52df96e80b3712464ff99949f4d922557143049274ea114b04e9c78f0b"
+        },
+        {
+          "txId": 78,
+          "item": "0x2bde7bab7d93bc9f5c9f486be65f6ad07eef9f495c1713a8d07560975a449afe"
+        },
+        {
+          "txId": 79,
+          "item": "0xbf91183d3c4230a1ce1c540f58d056ebeddc5842a47eb6f2ea155d8dbf91bbbc"
+        },
+        {
+          "txId": 80,
+          "item": "0xcccbce57dcb7e7f89e4d0f798897593d23aea27bcbef9ff6e95acfe5126912e6"
+        },
+        {
+          "txId": 81,
+          "item": "0xe772755692f6db5fc775f3faad5bd524683e45a01d5528072fd032a7c7ac52d6"
+        },
+        {
+          "txId": 82,
+          "item": "0x9194c730b98e35d17352ac2323bf2c648063dd2657d899f12816e331e885cf11"
+        },
+        {
+          "txId": 83,
+          "item": "0x2acc46273d9d7f3f4292ed677dce36a5f05ff1dfdcbbbccdcf62e514ba7118c9"
+        },
+        {
+          "txId": 84,
+          "item": "0x9c0b0476b143351aaf9162b8c277aea831d83f0ba250d35505306de31f8200b7"
+        },
+        {
+          "txId": 85,
+          "item": "0xf90476ab809a4bd075dceaf216ec3abac1a3a70790cbd7bc11daa5511ddad01c"
+        },
+        {
+          "txId": 86,
+          "item": "0x34b65df618b00752c173d9683f2dc931b598c229a45484e618f6c4304d3b0a59"
+        },
+        {
+          "txId": 87,
+          "item": "0x8bd9ece22c2e396b5e718ba55258caffa1bba8f2d63dbc18eb4a96b349c5383d"
+        },
+        {
+          "txId": 88,
+          "item": "0xd8f0b95dc1cc8df953af4d55f7c3fd80b1b0dcb66a8611b783fafaa3ada03621"
+        },
+        {
+          "txId": 89,
+          "item": "0x75b09f07a8a77a73ef304f81b44afe19491ef75624186f2d658634b727bccd3c"
+        },
+        {
+          "txId": 90,
+          "item": "0xdd612181529b571d260b4c84f2f0130d624b26eb48f6f70db5e91616ed188d72"
+        },
+        {
+          "txId": 91,
+          "item": "0x66a694c9445110faed8d88db67300a193c56a30b9e4304bee6a387bca29c0ed9"
+        },
+        {
+          "txId": 92,
+          "item": "0x4cb1ccaf1592cf0f5e42f7a2651da8b6a7ce11d10dafe20381e102be0e953743"
+        }
+      ]
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "overfill",
+        "expected": 10,
+        "actual": 92
+      },
+      "format": {
+        "isError": 0
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_cardinality_overfill"
+    ],
+    "metrics": {
+      "j": 92,
+      "FE": 0,
+      "HR": 0,
+      "GR": 1,
+      "UR": 0,
+      "OR": 8.2,
+      "RR": 0,
+      "KR": 0.09782608695652174
+    }
+  }
+}
