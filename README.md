@@ -1,5 +1,5 @@
 # Repetition Package
-This repository contains the experiment data used in "Dig Your History: Capture-Replay Testing of Upgradeable Smart Contracts via LLMs" submitted to TOSEM-2026. The package includes the artifacts produced during the experiments, and is intended to support result inspection, replication, and further analysis.
+This repository contains the experiment data used in "Dig Your History: Capture-Replay Testing of Upgradeable Smart Contracts via LLMs". The package includes the artifacts produced during the experiments, and is intended to support result inspection, replication, and further analysis.
 
 # Repository Structure
 At the top level, the repository contains a folder for each of the experiment subjects:
